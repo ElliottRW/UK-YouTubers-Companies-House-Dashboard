@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}UK YouTubers Accounts{% endblock %}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .num-pos  { color: #15803d; }
+    .num-neg  { color: #b91c1c; }
+    .num-nil  { color: #94a3b8; }
+    .spinner  { animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen font-sans antialiased">
+
+  <header class="bg-slate-900 text-white shadow-lg">
+    <div class="max-w-screen-xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <span class="text-3xl">📊</span>
+        <div>
+          <div class="font-bold text-lg leading-tight">UK YouTubers</div>
+          <div class="text-xs text-slate-400 leading-tight">Companies House Dashboard</div>
+        </div>
+      </a>
+      <span class="text-xs text-slate-500 hidden sm:block">
+        Data via <a href="https://developer.company-information.service.gov.uk/" target="_blank"
+          class="underline hover:text-slate-300">Companies House API</a>
+      </span>
+    </div>
+  </header>
+
+  <main class="max-w-screen-xl mx-auto px-4 sm:px-6 py-8">
+    {% block content %}{% endblock %}
+  </main>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

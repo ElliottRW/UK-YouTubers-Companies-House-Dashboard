@@ -1,0 +1,400 @@
+{% extends "base.html" %}
+{% block title %}
+  {{ group.display_name if group else company_number }} | UK YouTubers
+{% endblock %}
+
+{% block content %}
+
+{# ── Page header ─────────────────────────────────────────────────────────── #}
+<div class="flex flex-wrap items-center gap-3 mb-6">
+  <a href="/" class="text-slate-400 hover:text-slate-600 text-sm">← All Groups</a>
+  <div class="flex-1">
+    <h1 class="text-2xl font-bold text-slate-900">
+      {{ group.display_name if group else (data.company_name if data else company_number) }}
+    </h1>
+    {% if data %}
+    <p class="text-xs text-slate-400 mt-0.5">
+      Seed: {{ data.company_name | company_name }} · {{ data.company_number }}
+    </p>
+    {% endif %}
+  </div>
+  {% if data %}
+  <form method="POST" action="/group/{{ data.company_number }}/refresh">
+    <button class="text-xs border border-slate-300 rounded-lg px-3 py-1.5
+                   hover:bg-slate-100 transition-colors text-slate-600">
+      ↻ Refresh
+    </button>
+  </form>
+  {% endif %}
+</div>
+
+{# ── LOADING STATE ──────────────────────────────────────────────────────── #}
+{% if status in ("running", "idle") %}
+<div id="loading-state" class="flex flex-col items-center justify-center py-28 text-center">
+  <div class="w-14 h-14 rounded-full border-4 border-blue-200 border-t-blue-600 spinner mb-6"></div>
+  <h2 class="text-xl font-semibold text-slate-700">Fetching data from Companies House…</h2>
+  <p class="text-slate-400 mt-2 max-w-lg text-sm">
+    Finding every company each member is associated with, then downloading and reading
+    each balance sheet PDF. This takes <strong>1–3 minutes</strong> on first load —
+    results are cached so future visits are instant.
+  </p>
+  <div class="mt-6 flex gap-2 items-center text-xs text-slate-400">
+    <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
+    Working…
+  </div>
+</div>
+
+{# ── ERROR STATE ────────────────────────────────────────────────────────── #}
+{% elif status == "error" %}
+<div class="bg-red-50 border border-red-200 rounded-2xl p-8 text-center">
+  <p class="text-red-700 font-semibold text-lg mb-2">Fetch failed</p>
+  <p class="text-sm text-red-500 mb-4">
+    Could not retrieve data from Companies House.
+    Make sure your <code class="bg-red-100 px-1 rounded">CH_API_KEY</code> is set correctly in <code>.env</code>.
+  </p>
+  <form method="POST" action="/group/{{ group.company_number if group else '' }}/refresh">
+    <button class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-lg text-sm transition-colors">
+      Try Again
+    </button>
+  </form>
+</div>
+
+{# ── DATA STATE ─────────────────────────────────────────────────────────── #}
+{% elif status == "complete" and data %}
+
+{# Summary strip #}
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
+    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Members</div>
+    <div class="text-2xl font-bold text-slate-900">{{ data.officers | length }}</div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
+    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Companies</div>
+    <div class="text-2xl font-bold text-slate-900">{{ data.total_companies }}</div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4 col-span-2">
+    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Combined Net Assets</div>
+    <div class="text-2xl font-bold {{ 'num-pos' if data.total_net_assets > 0 else 'num-neg' }}">
+      {{ data.total_net_assets | currency }}
+    </div>
+  </div>
+</div>
+
+{# Officers #}
+<div class="space-y-6">
+{% for officer in data.officers %}
+<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+
+  {# Officer header #}
+  <div class="bg-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-3">
+    <div>
+      <h2 class="text-white font-bold text-lg leading-tight">
+        {{ officer.name | format_name }}
+      </h2>
+      <span class="text-slate-400 text-xs capitalize">{{ officer.role }}</span>
+    </div>
+    <div class="text-right">
+      <div class="text-xs text-slate-500 uppercase tracking-wide">Total Net Assets</div>
+      <div class="font-bold text-lg {{ 'num-pos' if officer.total_net_assets > 0 else ('num-neg' if officer.total_net_assets < 0 else 'text-slate-300') }}">
+        {{ officer.total_net_assets | currency }}
+      </div>
+    </div>
+  </div>
+
+  {# Companies table #}
+  {% if officer.companies %}
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead class="border-b border-slate-200 bg-slate-50">
+        <tr>
+          <th class="text-left px-6 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide w-2/5">Company</th>
+          <th class="text-left px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide">Role</th>
+          <th class="text-right px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide">Net Assets</th>
+          <th class="text-right px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide hidden sm:table-cell">Prior Year</th>
+          <th class="text-right px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide hidden md:table-cell">Date</th>
+          <th class="px-4 py-2.5 w-6"></th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+      {% for company in officer.companies %}
+        {# Main company row — click to expand #}
+        <tr class="hover:bg-slate-50 cursor-pointer transition-colors"
+            onclick="toggle('detail-{{ company.number }}-{{ loop.index }}')">
+          <td class="px-6 py-3">
+            <div class="font-medium text-slate-900">{{ company.name | company_name }}</div>
+            <div class="text-xs text-slate-400 font-mono mt-0.5">{{ company.number }}</div>
+          </td>
+          <td class="px-3 py-3 text-xs text-slate-500 capitalize whitespace-nowrap">
+            {{ company.role }}
+          </td>
+          <td class="px-3 py-3 text-right font-mono whitespace-nowrap">
+            {% if company.balance_sheet and company.balance_sheet.net_assets is defined %}
+              <span class="{{ 'num-pos' if company.balance_sheet.net_assets >= 0 else 'num-neg' }}">
+                {{ company.balance_sheet.net_assets | currency }}
+              </span>
+            {% else %}
+              <span class="num-nil text-xs italic">no data</span>
+            {% endif %}
+          </td>
+          <td class="px-3 py-3 text-right font-mono text-slate-400 text-xs hidden sm:table-cell whitespace-nowrap">
+            {% if company.balance_sheet and company.balance_sheet.net_assets_prior is defined %}
+              {{ company.balance_sheet.net_assets_prior | currency }}
+            {% else %}—{% endif %}
+          </td>
+          <td class="px-3 py-3 text-right text-slate-400 text-xs hidden md:table-cell whitespace-nowrap">
+            {% if company.balance_sheet and company.balance_sheet.date %}
+              {{ company.balance_sheet.date }}
+            {% elif company.filing_date %}
+              {{ company.filing_date }}
+            {% else %}—{% endif %}
+          </td>
+          <td class="px-4 py-3 text-slate-400 text-xs select-none">▾</td>
+        </tr>
+
+        {# Expandable detail row #}
+        <tr id="detail-{{ company.number }}-{{ loop.index }}" class="hidden">
+          <td colspan="6" class="px-6 py-5 bg-slate-50 border-b border-slate-200">
+          {% if company.balance_sheet %}
+            {% set bs = company.balance_sheet %}
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+              {# Balance sheet table #}
+              <div>
+                <div class="flex items-center justify-between mb-3">
+                  <h4 class="font-semibold text-slate-700 text-sm">
+                    Balance Sheet
+                    {% if bs.date %}<span class="text-slate-400 font-normal">— {{ bs.date }}</span>{% endif %}
+                  </h4>
+                  <a href="https://find-and-update.company-information.service.gov.uk/company/{{ company.number }}/filing-history"
+                     target="_blank" rel="noopener"
+                     class="text-xs text-blue-500 hover:underline">
+                    View on CH →
+                  </a>
+                </div>
+
+                <table class="w-full text-xs">
+                  <thead>
+                    <tr class="border-b border-slate-200 text-slate-500">
+                      <th class="text-left py-1.5 font-medium">Item</th>
+                      <th class="text-right py-1.5 font-medium pr-2">
+                        {{ bs.year if bs.year else "Current" }}
+                      </th>
+                      <th class="text-right py-1.5 font-medium text-slate-400">
+                        {{ bs.prior_year if bs.prior_year else "Prior" }}
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-100">
+
+                    {% if bs.fixed_assets is defined %}
+                    <tr>
+                      <td class="py-1.5 text-slate-600">Fixed Assets</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.fixed_assets | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.fixed_assets_prior | currency if bs.fixed_assets_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.investments is defined %}
+                    <tr>
+                      <td class="py-1.5 pl-4 text-slate-500">Investments</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.investments | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.investments_prior | currency if bs.investments_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.debtors is defined %}
+                    <tr>
+                      <td class="py-1.5 text-slate-600">Debtors</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.debtors | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.debtors_prior | currency if bs.debtors_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.cash is defined %}
+                    <tr>
+                      <td class="py-1.5 pl-4 text-slate-500">Cash</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.cash | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">—</td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.creditors is defined %}
+                    <tr>
+                      <td class="py-1.5 text-slate-600">Creditors (&lt; 1 yr)</td>
+                      <td class="text-right pr-2 font-mono {{ 'num-neg' if bs.creditors < 0 else '' }}">
+                        {{ bs.creditors | currency }}
+                      </td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.creditors_prior | currency if bs.creditors_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.net_current_assets is defined %}
+                    <tr class="font-semibold">
+                      <td class="py-1.5 text-slate-700">Net Current Assets</td>
+                      <td class="text-right pr-2 font-mono {{ 'num-pos' if bs.net_current_assets >= 0 else 'num-neg' }}">
+                        {{ bs.net_current_assets | currency }}
+                      </td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.net_current_assets_prior | currency if bs.net_current_assets_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    <tr class="border-t-2 border-slate-300 font-bold">
+                      <td class="py-2 text-slate-900">Net Assets</td>
+                      <td class="text-right pr-2 font-mono {{ 'num-pos' if (bs.net_assets is defined and bs.net_assets >= 0) else 'num-neg' }}">
+                        {{ bs.net_assets | currency }}
+                      </td>
+                      <td class="text-right font-mono text-slate-500">
+                        {{ bs.net_assets_prior | currency if bs.net_assets_prior is defined else '—' }}
+                      </td>
+                    </tr>
+
+                    {% if bs.called_up_capital is defined %}
+                    <tr>
+                      <td class="py-1.5 pl-4 text-slate-500">Share Capital</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.called_up_capital | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.called_up_capital_prior | currency if bs.called_up_capital_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.profit_loss_reserves is defined %}
+                    <tr>
+                      <td class="py-1.5 pl-4 text-slate-500">P&amp;L Reserves</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.profit_loss_reserves | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.profit_loss_reserves_prior | currency if bs.profit_loss_reserves_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                    {% if bs.total_equity is defined %}
+                    <tr class="border-t border-slate-200 font-semibold">
+                      <td class="py-1.5 text-slate-900">Total Equity</td>
+                      <td class="text-right pr-2 font-mono">{{ bs.total_equity | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">
+                        {{ bs.total_equity_prior | currency if bs.total_equity_prior is defined else '—' }}
+                      </td>
+                    </tr>
+                    {% endif %}
+
+                  </tbody>
+                </table>
+              </div>
+
+              {# Year-on-year panel #}
+              <div>
+                {% if bs.net_assets is defined and bs.net_assets_prior is defined %}
+                  {% set change = bs.net_assets - bs.net_assets_prior %}
+                  {% set pct = ((change / bs.net_assets_prior * 100) | round(1)) if bs.net_assets_prior != 0 else 0 %}
+                  <h4 class="font-semibold text-slate-700 text-sm mb-4">Year-on-Year</h4>
+                  <div class="text-3xl font-bold {{ 'num-pos' if change >= 0 else 'num-neg' }} mb-1">
+                    {{ '+' if change > 0 else '' }}{{ change | currency }}
+                  </div>
+                  <div class="text-sm {{ 'num-pos' if change >= 0 else 'num-neg' }}">
+                    {{ '+' if pct > 0 else '' }}{{ pct }}%
+                  </div>
+                  <div class="mt-4 text-xs text-slate-400">change in net assets</div>
+
+                  {# Mini bar chart #}
+                  {% set max_val = [bs.net_assets, bs.net_assets_prior] | max %}
+                  {% if max_val > 0 %}
+                  <div class="mt-6 space-y-2">
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-20 text-slate-500 text-right">
+                        {{ bs.year if bs.year else "Current" }}
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded-full h-4 overflow-hidden">
+                        <div class="h-full rounded-full {{ 'bg-green-500' if bs.net_assets >= 0 else 'bg-red-400' }}"
+                             style="width: {{ [((bs.net_assets / max_val) * 100) | round | int, 0] | max }}%">
+                        </div>
+                      </div>
+                      <span class="w-24 font-mono {{ 'num-pos' if bs.net_assets >= 0 else 'num-neg' }}">
+                        {{ bs.net_assets | currency }}
+                      </span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-20 text-slate-500 text-right">
+                        {{ bs.prior_year if bs.prior_year else "Prior" }}
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded-full h-4 overflow-hidden">
+                        <div class="h-full rounded-full bg-slate-400"
+                             style="width: {{ [((bs.net_assets_prior / max_val) * 100) | round | int, 0] | max }}%">
+                        </div>
+                      </div>
+                      <span class="w-24 font-mono text-slate-500">
+                        {{ bs.net_assets_prior | currency }}
+                      </span>
+                    </div>
+                  </div>
+                  {% endif %}
+                {% else %}
+                  <div class="text-sm text-slate-400 italic pt-4">No year-on-year comparison available.</div>
+                {% endif %}
+              </div>
+
+            </div>
+          {% else %}
+            <div class="text-sm text-slate-400 italic flex items-center gap-3">
+              No balance sheet data could be extracted for this company.
+              <a href="https://find-and-update.company-information.service.gov.uk/company/{{ company.number }}/filing-history"
+                 target="_blank" rel="noopener"
+                 class="text-blue-500 hover:underline">View on Companies House →</a>
+            </div>
+          {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div class="px-6 py-4 text-sm text-slate-400 italic">No active company appointments found.</div>
+  {% endif %}
+
+</div>
+{% endfor %}
+</div>
+
+<p class="text-center text-xs text-slate-400 mt-6">
+  Last fetched {{ data.fetched_at }} · Refreshes every hour · Click any row to expand its balance sheet
+</p>
+
+{% endif %}{# end data state #}
+{% endblock %}
+
+{% block scripts %}
+{% if status in ("running", "idle") %}
+<script>
+  (function poll() {
+    fetch('/api/group/{{ (group.company_number if group else company_number) }}/status')
+      .then(r => r.json())
+      .then(d => {
+        if (d.status === 'complete' || d.status === 'error') {
+          window.location.reload();
+        } else {
+          setTimeout(poll, 3000);
+        }
+      })
+      .catch(() => setTimeout(poll, 5000));
+  })();
+</script>
+{% endif %}
+
+<script>
+  function toggle(id) {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden');
+  }
+</script>
+{% endblock %}
