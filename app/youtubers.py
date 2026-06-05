@@ -22,7 +22,7 @@ YOUTUBERS = [
 
     # ── Sidemen Orbit ─────────────────────────────────────────────────────
     {"name": "Calfreezy",    "real_name": "Callum Airey",                      "seed_company": "13054703", "surname": "AIREY",     "group": "Sidemen Orbit"},
-    {"name": "Callux",       "real_name": "Callum Aaron McGinley",             "seed_company": "12512852", "surname": "MCGINLEY",  "group": "Sidemen Orbit"},
+    {"name": "Callux",       "real_name": "Callum Aaron McGinley",             "seed_company": "12512852", "surname": "MCGINLEY",  "group": "Sidemen Orbit", "extra_seed_companies": ["10451833"]},
     {"name": "ChrisMD",      "real_name": "Christopher Dixon",                 "seed_company": "13427413", "surname": "DIXON",     "group": "Sidemen Orbit"},
     {"name": "Stephen Tries","real_name": "Stephen Lawson",                    "seed_company": "11578506", "surname": "LAWSON",    "group": "Sidemen Orbit"},
     {"name": "Reev",         "real_name": "Oliver Fletcher-Warrington",        "seed_company": "10108561", "surname": "FLETCHER",  "group": "Sidemen Orbit"},
