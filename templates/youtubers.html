@@ -31,8 +31,13 @@
         {% for y in members %}
         <tr class="hover:bg-slate-50 transition-colors cursor-pointer"
             onclick="window.location=this.querySelector('a').href">
-          <td class="px-5 py-3 font-semibold text-slate-900">
-            <a href="youtuber/{{ y.slug }}/" class="hover:text-blue-600 transition-colors">{{ y.name }}</a>
+          <td class="px-5 py-3">
+            <a href="youtuber/{{ y.slug }}/" class="font-semibold text-slate-900 hover:text-blue-600 transition-colors">{{ y.name }}</a>
+            {% if y.total_net_assets is not none %}
+            <span class="ml-2 text-xs font-mono {{ 'num-pos' if y.total_net_assets >= 0 else 'num-neg' }}">
+              {{ y.total_net_assets | currency }}
+            </span>
+            {% endif %}
           </td>
           <td class="px-5 py-3 text-slate-600">{{ y.real_name }}</td>
           <td class="px-5 py-3">

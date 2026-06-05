@@ -198,7 +198,13 @@ async def youtubers_page(request: Request):
     ordered_groups: dict[str, list] = {}
     for y in YOUTUBERS:
         g = y["group"]
-        entry = {**y, "slug": _slugify(y["name"])}
+        slug = _slugify(y["name"])
+        static = _load_static_data(slug)
+        entry = {
+            **y,
+            "slug": slug,
+            "total_net_assets": (static or {}).get("total_net_assets"),
+        }
         if g not in seen_groups:
             group_order.append(g)
             seen_groups.add(g)
