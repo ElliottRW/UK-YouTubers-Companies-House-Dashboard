@@ -7,7 +7,7 @@ YOUTUBERS = [
     # ── The Sidemen ──────────────────────────────────────────────────────────
     {"name": "KSI",          "real_name": "Olajide Olatunji",                  "seed_company": "12129201", "surname": "OLATUNJI",  "group": "The Sidemen"},
     {"name": "Miniminter",   "real_name": "Simon Minter",                      "seed_company": "12129201", "surname": "MINTER",    "group": "The Sidemen"},
-    {"name": "Zerkaa",       "real_name": "Joshua Bradley",                    "seed_company": "12129201", "surname": "BRADLEY",   "group": "The Sidemen"},
+    {"name": "Zerkaa",       "real_name": "Joshua Bradley",                    "seed_company": "12129201", "surname": "BRADLEY",   "group": "The Sidemen", "extra_seed_companies": ["13834454"]},
     {"name": "TBJZL",        "real_name": "Tobit Brown",                       "seed_company": "12129201", "surname": "BROWN",     "group": "The Sidemen"},
     {"name": "W2S",          "real_name": "Harry Lewis",                       "seed_company": "12129201", "surname": "LEWIS",     "group": "The Sidemen", "extra_seed_companies": ["13568263"]},
     {"name": "Vikkstar123",  "real_name": "Vikram Barn",                       "seed_company": "12129201", "surname": "BARN",      "group": "The Sidemen"},
