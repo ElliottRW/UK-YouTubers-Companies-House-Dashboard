@@ -128,6 +128,64 @@
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
     },
     {
+      "number": "15630414",
+      "name": "WHYAREYOUSEARCHING LTD",
+      "status": "dissolved",
+      "role": "director",
+      "appointed_on": "2024-04-09",
+      "balance_sheet": {
+        "date": "30 April 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "net_current_assets": 100,
+        "net_assets": 100,
+        "_filing_date": "2026-01-06"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "30 April 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "net_current_assets": 100,
+          "net_assets": 100,
+          "_filing_date": "2026-01-06"
+        }
+      ],
+      "filing_date": "2026-01-06",
+      "filing_description": "accounts-with-accounts-type-dormant"
+    },
+    {
+      "number": "15341616",
+      "name": "BETA SQUAD HOLDINGS LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2023-12-11",
+      "balance_sheet": {
+        "date": "31 December 2024",
+        "year": 2024,
+        "prior_year": 2023,
+        "debtors": 100,
+        "net_current_assets": 100,
+        "net_assets": 100,
+        "total_equity": 100,
+        "_filing_date": "2025-09-01"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 December 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "debtors": 100,
+          "net_current_assets": 100,
+          "net_assets": 100,
+          "total_equity": 100,
+          "_filing_date": "2025-09-01"
+        }
+      ],
+      "filing_date": "2025-09-01",
+      "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    },
+    {
       "number": "11164904",
       "name": "ANYTIMENOW MANAGEMENT LTD",
       "status": "dissolved",
@@ -137,9 +195,31 @@
       "all_balance_sheets": [],
       "filing_date": null,
       "filing_description": null
+    },
+    {
+      "number": "16134179",
+      "name": "SHADES SNACKS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-03-07",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "16015416",
+      "name": "DONTASKQUESTIONS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-10-14",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
     }
   ],
-  "total_companies": 2,
-  "total_net_assets": 2528233,
-  "fetched_at": "05 Jun 2026 09:53 UTC"
+  "total_companies": 6,
+  "total_net_assets": 2528433,
+  "fetched_at": "05 Jun 2026 11:54 UTC"
 }

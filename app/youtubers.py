@@ -14,11 +14,11 @@ YOUTUBERS = [
     {"name": "Behzinga",     "real_name": "Ethan Payne",                       "seed_company": "12129201", "surname": "PAYNE",     "group": "The Sidemen"},
 
     # ── Beta Squad ───────────────────────────────────────────────────────────
-    {"name": "Chunkz",       "real_name": "Amin Mohamed",                      "seed_company": "11999342", "surname": "MOHAMED",   "group": "Beta Squad"},
-    {"name": "Sharky",       "real_name": "Sharmarke Mohamud",                 "seed_company": "11999342", "surname": "MOHAMUD",   "group": "Beta Squad"},
-    {"name": "Niko Omilana", "real_name": "Nikolas Omilana",                   "seed_company": "11999342", "surname": "OMILANA",   "group": "Beta Squad"},
-    {"name": "AJ Shabeel",   "real_name": "Ayaanle Shabeel",                   "seed_company": "11999342", "surname": "SHABEEL",   "group": "Beta Squad"},
-    {"name": "KingKenny",    "real_name": "Kenny Ojuederie",                   "seed_company": "11999342", "surname": "OJUEDERIE", "group": "Beta Squad"},
+    {"name": "Chunkz",       "real_name": "Amin Mohamed",                      "seed_company": "11999342", "surname": "MOHAMED",   "group": "Beta Squad", "extra_seed_companies": ["15341616"]},
+    {"name": "Sharky",       "real_name": "Sharmarke Mohamud",                 "seed_company": "11999342", "surname": "MOHAMUD",   "group": "Beta Squad", "extra_seed_companies": ["15341616"]},
+    {"name": "Niko Omilana", "real_name": "Nikolas Omilana",                   "seed_company": "11999342", "surname": "OMILANA",   "group": "Beta Squad", "extra_seed_companies": ["15341616"]},
+    {"name": "AJ Shabeel",   "real_name": "Ayaanle Shabeel",                   "seed_company": "11999342", "surname": "SHABEEL",   "group": "Beta Squad", "extra_seed_companies": ["15341616"]},
+    {"name": "KingKenny",    "real_name": "Kenny Ojuederie",                   "seed_company": "11999342", "surname": "OJUEDERIE", "group": "Beta Squad", "extra_seed_companies": ["15341616"]},
 
     # ── Sidemen Orbit ─────────────────────────────────────────────────────
     {"name": "Calfreezy",    "real_name": "Callum Airey",                      "seed_company": "13054703", "surname": "AIREY",     "group": "Sidemen Orbit"},

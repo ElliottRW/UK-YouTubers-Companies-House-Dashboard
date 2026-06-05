@@ -126,9 +126,82 @@
       ],
       "filing_date": "2025-09-01",
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    },
+    {
+      "number": "15263891",
+      "name": "CLEAN HEARTZ LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2023-11-06",
+      "balance_sheet": {
+        "date": "30 November 2024",
+        "year": 2024,
+        "prior_year": 2023,
+        "creditors": -5072,
+        "net_current_assets": 22656,
+        "net_assets": 22656,
+        "total_equity": 21526,
+        "_filing_date": "2025-07-25"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "30 November 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "creditors": -5072,
+          "net_current_assets": 22656,
+          "net_assets": 22656,
+          "total_equity": 21526,
+          "_filing_date": "2025-07-25"
+        }
+      ],
+      "filing_date": "2025-07-25",
+      "filing_description": "accounts-with-accounts-type-micro-entity"
+    },
+    {
+      "number": "15341616",
+      "name": "BETA SQUAD HOLDINGS LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2023-12-11",
+      "balance_sheet": {
+        "date": "31 December 2024",
+        "year": 2024,
+        "prior_year": 2023,
+        "debtors": 100,
+        "net_current_assets": 100,
+        "net_assets": 100,
+        "total_equity": 100,
+        "_filing_date": "2025-09-01"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 December 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "debtors": 100,
+          "net_current_assets": 100,
+          "net_assets": 100,
+          "total_equity": 100,
+          "_filing_date": "2025-09-01"
+        }
+      ],
+      "filing_date": "2025-09-01",
+      "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    },
+    {
+      "number": "15229332",
+      "name": "CHUNKZINO HOLDINGS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2023-10-23",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": "2025-01-08",
+      "filing_description": "accounts-with-accounts-type-dormant"
     }
   ],
-  "total_companies": 1,
-  "total_net_assets": 2528233,
-  "fetched_at": "05 Jun 2026 09:53 UTC"
+  "total_companies": 4,
+  "total_net_assets": 2550989,
+  "fetched_at": "05 Jun 2026 11:54 UTC"
 }
