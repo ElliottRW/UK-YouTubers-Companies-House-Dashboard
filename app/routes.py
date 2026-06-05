@@ -68,6 +68,7 @@ def _fmt_company(name: str) -> str:
 templates.env.filters["currency"] = _fmt_currency
 templates.env.filters["format_name"] = _fmt_name
 templates.env.filters["company_name"] = _fmt_company
+templates.env.globals["base_href"] = "/"
 
 # ── Fetch status tracker (in-memory, reset on restart) ────────────────────────
 

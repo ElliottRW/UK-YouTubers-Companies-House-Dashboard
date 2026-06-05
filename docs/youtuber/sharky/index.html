@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/UK-YouTubers-Companies-House-Dashboard/">
+  <title>Sharky | UK YouTubers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .num-pos  { color: #15803d; }
+    .num-neg  { color: #b91c1c; }
+    .num-nil  { color: #94a3b8; }
+    .spinner  { animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen font-sans antialiased">
+
+  <header class="bg-slate-900 text-white shadow-lg">
+    <div class="max-w-screen-xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="." class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <span class="text-3xl">📊</span>
+        <div>
+          <div class="font-bold text-lg leading-tight">UK YouTubers</div>
+          <div class="text-xs text-slate-400 leading-tight">Companies House Dashboard</div>
+        </div>
+      </a>
+      <span class="text-xs text-slate-500 hidden sm:block">
+        Data via <a href="https://developer.company-information.service.gov.uk/" target="_blank"
+          class="underline hover:text-slate-300">Companies House API</a>
+      </span>
+    </div>
+  </header>
+
+  <main class="max-w-screen-xl mx-auto px-4 sm:px-6 py-8">
+    
+
+
+<div class="flex flex-wrap items-center gap-3 mb-6">
+  <a href="youtubers/" class="text-slate-400 hover:text-slate-600 text-sm">← All YouTubers</a>
+  <div class="flex-1">
+    <h1 class="text-2xl font-bold text-slate-900">Sharky</h1>
+    <p class="text-xs text-slate-400 mt-0.5">
+      Sharmarke Mohamud · Beta Squad
+       · Sharmarke Mohamud
+    </p>
+  </div>
+  
+</div>
+
+
+
+
+
+<div class="grid grid-cols-2 gap-4 mb-8">
+  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
+    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Companies</div>
+    <div class="text-2xl font-bold text-slate-900">1</div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
+    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Total Net Assets</div>
+    <div class="text-2xl font-bold num-pos">
+      £2,528,233
+    </div>
+  </div>
+</div>
+
+
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead class="border-b border-slate-200 bg-slate-50">
+        <tr>
+          <th class="text-left px-6 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide w-2/5">Company</th>
+          <th class="text-left px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide">Role</th>
+          <th class="text-right px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide">Net Assets</th>
+          <th class="text-right px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide hidden sm:table-cell">Prior Year</th>
+          <th class="text-right px-3 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wide hidden md:table-cell">Date</th>
+          <th class="px-4 py-2.5 w-6"></th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+      
+        <tr class="hover:bg-slate-50 cursor-pointer transition-colors"
+            onclick="toggle('detail-1')">
+          <td class="px-6 py-3">
+            <div class="font-medium text-slate-900">Beta Squad Limited</div>
+            <div class="text-xs text-slate-400 font-mono mt-0.5">11999342</div>
+          </td>
+          <td class="px-3 py-3 text-xs text-slate-500 capitalize whitespace-nowrap">
+            director
+          </td>
+          <td class="px-3 py-3 text-right font-mono whitespace-nowrap">
+            
+              <span class="num-pos">
+                £2,528,233
+              </span>
+            
+          </td>
+          <td class="px-3 py-3 text-right font-mono text-slate-400 text-xs hidden sm:table-cell whitespace-nowrap">
+            
+              £2,657,387
+            
+          </td>
+          <td class="px-3 py-3 text-right text-slate-400 text-xs hidden md:table-cell whitespace-nowrap">
+            
+              31 December 2024
+            
+          </td>
+          <td class="px-4 py-3 text-slate-400 text-xs select-none">▾</td>
+        </tr>
+
+        
+        <tr id="detail-1" class="hidden">
+          <td colspan="6" class="px-6 py-5 bg-slate-50 border-b border-slate-200">
+          
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+              <div>
+                <div class="flex items-center justify-between mb-3">
+                  <h4 class="font-semibold text-slate-700 text-sm">
+                    Balance Sheet
+                    <span class="text-slate-400 font-normal">— 31 December 2024</span>
+                  </h4>
+                  <a href="https://find-and-update.company-information.service.gov.uk/company/11999342/filing-history"
+                     target="_blank" rel="noopener"
+                     class="text-xs text-blue-500 hover:underline">
+                    View on CH →
+                  </a>
+                </div>
+
+                <table class="w-full text-xs">
+                  <thead>
+                    <tr class="border-b border-slate-200 text-slate-500">
+                      <th class="text-left py-1.5 font-medium">Item</th>
+                      <th class="text-right py-1.5 font-medium pr-2">2024</th>
+                      <th class="text-right py-1.5 font-medium text-slate-400">2023</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-100">
+
+                    
+                    <tr>
+                      <td class="py-1.5 text-slate-600">Fixed Assets</td>
+                      <td class="text-right pr-2 font-mono">£95,340</td>
+                      <td class="text-right font-mono text-slate-400">£93,759</td>
+                    </tr>
+                    
+
+                    
+
+                    
+                    <tr>
+                      <td class="py-1.5 text-slate-600">Debtors</td>
+                      <td class="text-right pr-2 font-mono">£133,345</td>
+                      <td class="text-right font-mono text-slate-400">£585,616</td>
+                    </tr>
+                    
+
+                    
+
+                    
+                    <tr>
+                      <td class="py-1.5 text-slate-600">Creditors (&lt; 1 yr)</td>
+                      <td class="text-right pr-2 font-mono num-neg">(£250,499)</td>
+                      <td class="text-right font-mono text-slate-400">(£550,533)</td>
+                    </tr>
+                    
+
+                    
+                    <tr class="font-semibold">
+                      <td class="py-1.5 text-slate-700">Net Current Assets</td>
+                      <td class="text-right pr-2 font-mono num-pos">£2,432,893</td>
+                      <td class="text-right font-mono text-slate-400">£2,563,628</td>
+                    </tr>
+                    
+
+                    <tr class="border-t-2 border-slate-300 font-bold">
+                      <td class="py-2 text-slate-900">Net Assets</td>
+                      <td class="text-right pr-2 font-mono num-pos">£2,528,233</td>
+                      <td class="text-right font-mono text-slate-500">£2,657,387</td>
+                    </tr>
+
+                    
+
+                    
+
+                    
+                    <tr class="border-t border-slate-200 font-semibold">
+                      <td class="py-1.5 text-slate-900">Total Equity</td>
+                      <td class="text-right pr-2 font-mono">£2,501,527</td>
+                      <td class="text-right font-mono text-slate-400">£2,642,587</td>
+                    </tr>
+                    
+
+                  </tbody>
+                </table>
+              </div>
+
+              <div>
+                
+                
+                  
+                  <h4 class="font-semibold text-slate-700 text-sm mb-3">Net Assets History (6 years)</h4>
+                  
+                  
+                    
+                      
+                    
+                  
+                    
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                  <div class="space-y-1.5">
+                  
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-28 text-slate-500 text-right shrink-0 truncate">
+                        31 December 2024
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded h-3 overflow-hidden">
+                        
+                        <div class="h-full rounded bg-emerald-400"
+                             style="width: 95%"></div>
+                        
+                      </div>
+                      <span class="w-24 font-mono text-right shrink-0 num-pos">
+                        £2,528,233
+                      </span>
+                      
+                        
+                        <span class="w-20 text-right shrink-0 num-neg">
+                          (£129,154)
+                        </span>
+                      
+                    </div>
+                  
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-28 text-slate-500 text-right shrink-0 truncate">
+                        31 December 2023
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded h-3 overflow-hidden">
+                        
+                        <div class="h-full rounded bg-emerald-400"
+                             style="width: 100%"></div>
+                        
+                      </div>
+                      <span class="w-24 font-mono text-right shrink-0 num-pos">
+                        £2,657,387
+                      </span>
+                      
+                        
+                        <span class="w-20 text-right shrink-0 num-pos">
+                          +£1,507,495
+                        </span>
+                      
+                    </div>
+                  
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-28 text-slate-500 text-right shrink-0 truncate">
+                        31 December 2022
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded h-3 overflow-hidden">
+                        
+                        <div class="h-full rounded bg-emerald-400"
+                             style="width: 43%"></div>
+                        
+                      </div>
+                      <span class="w-24 font-mono text-right shrink-0 num-pos">
+                        £1,149,892
+                      </span>
+                      
+                        
+                        <span class="w-20 text-right shrink-0 num-pos">
+                          +£1,232,052
+                        </span>
+                      
+                    </div>
+                  
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-28 text-slate-500 text-right shrink-0 truncate">
+                        31 December 2021
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded h-3 overflow-hidden">
+                        
+                        <div class="h-full rounded bg-red-400"
+                             style="width: 0%"></div>
+                        
+                      </div>
+                      <span class="w-24 font-mono text-right shrink-0 num-neg">
+                        (£82,160)
+                      </span>
+                      
+                        
+                        <span class="w-20 text-right shrink-0 num-neg">
+                          (£52,250)
+                        </span>
+                      
+                    </div>
+                  
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-28 text-slate-500 text-right shrink-0 truncate">
+                        31 May 2021
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded h-3 overflow-hidden">
+                        
+                        <div class="h-full rounded bg-red-400"
+                             style="width: 0%"></div>
+                        
+                      </div>
+                      <span class="w-24 font-mono text-right shrink-0 num-neg">
+                        (£29,910)
+                      </span>
+                      
+                        
+                        <span class="w-20 text-right shrink-0 num-neg">
+                          (£14,900)
+                        </span>
+                      
+                    </div>
+                  
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                      <span class="w-28 text-slate-500 text-right shrink-0 truncate">
+                        31 May 2020
+                      </span>
+                      <div class="flex-1 bg-slate-100 rounded h-3 overflow-hidden">
+                        
+                        <div class="h-full rounded bg-red-400"
+                             style="width: 0%"></div>
+                        
+                      </div>
+                      <span class="w-24 font-mono text-right shrink-0 num-neg">
+                        (£15,010)
+                      </span>
+                      
+                        <span class="w-20 shrink-0"></span>
+                      
+                    </div>
+                  
+                  </div>
+                
+              </div>
+
+            </div>
+          
+          </td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<p class="text-center text-xs text-slate-400 mt-6">
+  Last fetched 05 Jun 2026 09:53 UTC · Refreshes every hour · Click any row to expand its balance sheet
+</p>
+
+
+
+  </main>
+
+  
+
+
+<script>
+  function toggle(id) {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden');
+  }
+</script>
+
+</body>
+</html>

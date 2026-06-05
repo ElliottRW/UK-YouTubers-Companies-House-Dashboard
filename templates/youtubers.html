@@ -30,16 +30,16 @@
       <tbody class="divide-y divide-slate-100">
         {% for y in members %}
         <tr class="hover:bg-slate-50 transition-colors cursor-pointer"
-            onclick="window.location='/youtuber/{{ y.slug }}'">
+            onclick="window.location=this.querySelector('a').href"
           <td class="px-5 py-3 font-semibold text-slate-900">
-            <a href="/youtuber/{{ y.slug }}" class="hover:text-blue-600 transition-colors">{{ y.name }}</a>
+            <a href="youtuber/{{ y.slug }}/" class="hover:text-blue-600 transition-colors">{{ y.name }}</a>
           </td>
           <td class="px-5 py-3 text-slate-600">{{ y.real_name }}</td>
           <td class="px-5 py-3">
             <code class="text-xs bg-slate-100 text-slate-500 rounded px-1.5 py-0.5">{{ y.seed_company }}</code>
           </td>
           <td class="px-5 py-3 text-right">
-            <a href="/youtuber/{{ y.slug }}"
+            <a href="youtuber/{{ y.slug }}/"
                class="text-xs text-blue-600 hover:text-blue-800 font-medium transition-colors"
                onclick="event.stopPropagation()">
               View companies →
