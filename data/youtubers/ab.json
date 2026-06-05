@@ -1,0 +1,24 @@
+{
+  "slug": "ab",
+  "name": "AB",
+  "real_name": "Alfie Noah Buttle",
+  "group": "Other UK YouTubers",
+  "officer_name": "BUTTLE, Alfie Noah",
+  "officer_id": "3J4brdXSlUsWnPhvvd2XXoO7itM",
+  "companies": [
+    {
+      "number": "16166511",
+      "name": "ABUTTLE LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-01-06",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 1,
+  "total_net_assets": 0,
+  "fetched_at": "05 Jun 2026 09:54 UTC"
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "danny-aarons",
+  "name": "Danny Aarons",
+  "real_name": "Daniel Peter Aarons",
+  "group": "Sidemen Orbit",
+  "officer_name": "AARONS, Daniel Peter",
+  "officer_id": "3tjkDwuyHX_eYJ47QkSKpuCDkoI",
+  "companies": [
+    {
+      "number": "14754549",
+      "name": "DANNY AARONS HOLDINGS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2023-03-24",
+      "balance_sheet": {
+        "date": "30 June 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "fixed_assets": 100,
+        "debtors": 731,
+        "creditors": -8233,
+        "net_current_assets": 1525599,
+        "net_assets": 1820999,
+        "total_equity": 1820999,
+        "debtors_prior": 676,
+        "creditors_prior": -4194,
+        "net_current_assets_prior": 1418378,
+        "net_assets_prior": 1418378,
+        "total_equity_prior": 1418378,
+        "_filing_date": "2026-03-11"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "30 June 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "fixed_assets": 100,
+          "debtors": 731,
+          "creditors": -8233,
+          "net_current_assets": 1525599,
+          "net_assets": 1820999,
+          "total_equity": 1820999,
+          "debtors_prior": 676,
+          "creditors_prior": -4194,
+          "net_current_assets_prior": 1418378,
+          "net_assets_prior": 1418378,
+          "total_equity_prior": 1418378,
+          "_filing_date": "2026-03-11"
+        },
+        {
+          "date": "30 June 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "debtors": 676,
+          "creditors": -4194,
+          "net_current_assets": 1418378,
+          "net_assets": 1418378,
+          "total_equity": 1418378,
+          "net_current_assets_prior": 100,
+          "net_assets_prior": 100,
+          "total_equity_prior": 100,
+          "_filing_date": "2025-03-14"
+        },
+        {
+          "date": "30 June 2023",
+          "year": 2023,
+          "prior_year": 2023,
+          "net_assets": 100,
+          "total_equity": 100,
+          "_filing_date": "2024-12-23"
+        },
+        {
+          "date": "30 June 2023",
+          "year": 2023,
+          "prior_year": 2023,
+          "net_assets": 100,
+          "total_equity": 100,
+          "_filing_date": "2024-12-23"
+        }
+      ],
+      "filing_date": "2026-03-11",
+      "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    },
+    {
+      "number": "14121151",
+      "name": "DANNY AARONS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2022-05-20",
+      "balance_sheet": {
+        "date": "30 June 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "debtors": 93363,
+        "creditors": -224479,
+        "net_current_assets": 634294,
+        "net_assets": 752253,
+        "total_equity": 722763,
+        "debtors_prior": 122967,
+        "creditors_prior": -354729,
+        "net_current_assets_prior": 856866,
+        "net_assets_prior": 958200,
+        "total_equity_prior": 932866,
+        "_filing_date": "2026-03-11"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "30 June 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "debtors": 93363,
+          "creditors": -224479,
+          "net_current_assets": 634294,
+          "net_assets": 752253,
+          "total_equity": 722763,
+          "debtors_prior": 122967,
+          "creditors_prior": -354729,
+          "net_current_assets_prior": 856866,
+          "net_assets_prior": 958200,
+          "total_equity_prior": 932866,
+          "_filing_date": "2026-03-11"
+        },
+        {
+          "date": "30 June 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "debtors": 122967,
+          "creditors": -354729,
+          "net_current_assets": 856866,
+          "net_assets": 958200,
+          "total_equity": 932866,
+          "debtors_prior": 363878,
+          "creditors_prior": -406409,
+          "net_current_assets_prior": 1457812,
+          "net_assets_prior": 1462646,
+          "total_equity_prior": 1461437,
+          "_filing_date": "2025-03-14"
+        },
+        {
+          "date": "30 June 2023",
+          "year": 2023,
+          "prior_year": 2022,
+          "debtors": 363878,
+          "creditors": -406409,
+          "net_current_assets": 1457812,
+          "net_assets": 1462646,
+          "_filing_date": "2024-01-31"
+        }
+      ],
+      "filing_date": "2026-03-11",
+      "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    },
+    {
+      "number": "17166325",
+      "name": "DANNY AARONS CAPITAL MANAGEMENT LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2026-04-19",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 3,
+  "total_net_assets": 2573252,
+  "fetched_at": "05 Jun 2026 09:54 UTC"
+}

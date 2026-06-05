@@ -1,0 +1,24 @@
+{
+  "slug": "arthurtv",
+  "name": "ArthurTV",
+  "real_name": "Arthur Frederick Lanzon Fern",
+  "group": "Friends from Work",
+  "officer_name": "FERN, Arthur Frederick Lanzon",
+  "officer_id": "7bHkuEmb1E3d6bsMn6TzScAu7_Q",
+  "companies": [
+    {
+      "number": "17047852",
+      "name": "FRIENDS FROM WORK LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2026-02-23",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 1,
+  "total_net_assets": 0,
+  "fetched_at": "05 Jun 2026 09:54 UTC"
+}

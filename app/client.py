@@ -76,22 +76,30 @@ class CHClient:
         return all_items
 
     async def get_latest_accounts_filing(self, company_number: str) -> Optional[dict]:
-        data = await self._get(
-            f"{BASE_URL}/company/{company_number}/filing-history",
-            params={"category": "accounts", "items_per_page": 10},
-        )
-        items = data.get("items", [])
-        for item in items:
-            desc = item.get("description", "").lower()
-            type_ = item.get("type", "").lower()
-            if any(
-                k in desc
-                for k in ["total exemption", "full accounts", "micro-entity", "micro entity"]
-            ):
-                return item
-            if type_ in ("aa", "aamd", "aa01"):
-                return item
-        return items[0] if items else None
+        filings = await self.get_all_accounts_filings(company_number)
+        return filings[0] if filings else None
+
+    async def get_all_accounts_filings(self, company_number: str) -> list:
+        """Return every accounts filing for a company, most recent first."""
+        all_filings = []
+        start = 0
+        while True:
+            data = await self._get(
+                f"{BASE_URL}/company/{company_number}/filing-history",
+                params={"category": "accounts", "items_per_page": 100, "start_index": start},
+            )
+            items = data.get("items", [])
+            for item in items:
+                desc = item.get("description", "").lower()
+                type_ = item.get("type", "").lower()
+                if any(k in desc for k in ["total exemption", "full accounts", "micro-entity", "micro entity"]):
+                    all_filings.append(item)
+                elif type_ in ("aa", "aamd", "aa01"):
+                    all_filings.append(item)
+            if len(items) < 100:
+                break
+            start += 100
+        return all_filings
 
     async def download_pdf(self, doc_metadata_url: str) -> Optional[bytes]:
         """Download the iXBRL (structured data) version of a filing."""

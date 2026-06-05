@@ -1,0 +1,99 @@
+{
+  "slug": "chrismd",
+  "name": "ChrisMD",
+  "real_name": "Christopher Dixon",
+  "group": "Sidemen Orbit",
+  "officer_name": "DIXON, Christopher Michael",
+  "officer_id": "5DD9zSyIp8DW0aKTV545UUQgUYQ",
+  "companies": [
+    {
+      "number": "13427413",
+      "name": "CMD FILMS UK LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2021-05-28",
+      "balance_sheet": {
+        "date": "31 May 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "debtors": 199320,
+        "creditors": -228285,
+        "net_current_assets": 376285,
+        "net_assets": 405948,
+        "total_equity": 398748,
+        "debtors_prior": 287727,
+        "creditors_prior": -234379,
+        "net_current_assets_prior": 278344,
+        "net_assets_prior": 325383,
+        "total_equity_prior": 313683,
+        "_filing_date": "2025-12-17"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 May 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "debtors": 199320,
+          "creditors": -228285,
+          "net_current_assets": 376285,
+          "net_assets": 405948,
+          "total_equity": 398748,
+          "debtors_prior": 287727,
+          "creditors_prior": -234379,
+          "net_current_assets_prior": 278344,
+          "net_assets_prior": 325383,
+          "total_equity_prior": 313683,
+          "_filing_date": "2025-12-17"
+        },
+        {
+          "date": "31 May 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "debtors": 287727,
+          "creditors": -234379,
+          "net_current_assets": 278344,
+          "net_assets": 325383,
+          "total_equity": 313683,
+          "debtors_prior": 119028,
+          "creditors_prior": -164423,
+          "net_current_assets_prior": 286624,
+          "net_assets_prior": 326936,
+          "total_equity_prior": 316936,
+          "_filing_date": "2025-02-24"
+        },
+        {
+          "date": "31 May 2023",
+          "year": 2023,
+          "prior_year": 2022,
+          "debtors": 119028,
+          "creditors": -164423,
+          "net_current_assets": 286624,
+          "net_assets": 326936,
+          "total_equity": 316936,
+          "debtors_prior": 234302,
+          "creditors_prior": -194717,
+          "net_current_assets_prior": 308483,
+          "net_assets_prior": 310608,
+          "total_equity_prior": 310208,
+          "_filing_date": "2024-02-29"
+        },
+        {
+          "date": "31 May 2022",
+          "year": 2022,
+          "prior_year": 2021,
+          "debtors": 234302,
+          "creditors": -194717,
+          "net_current_assets": 308483,
+          "net_assets": 310608,
+          "total_equity": 310208,
+          "_filing_date": "2023-02-28"
+        }
+      ],
+      "filing_date": "2025-12-17",
+      "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    }
+  ],
+  "total_companies": 1,
+  "total_net_assets": 405948,
+  "fetched_at": "05 Jun 2026 09:53 UTC"
+}

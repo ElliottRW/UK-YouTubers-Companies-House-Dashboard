@@ -1,0 +1,57 @@
+{
+  "slug": "angry-ginge",
+  "name": "Angry Ginge",
+  "real_name": "Morgan Sam Lee Burtwistle",
+  "group": "The Bov Boys",
+  "officer_name": "BURTWISTLE, Morgan",
+  "officer_id": "HhlFOGo6sOYLMyUggdNMnX-LIos",
+  "companies": [
+    {
+      "number": "16628776",
+      "name": "BOV BOYS ENTERTAINMENT LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-08-05",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "16334204",
+      "name": "GINGE PROPERTIES LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-03-21",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "16077338",
+      "name": "ONE OF THE PEOPLE LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-11-13",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "16032677",
+      "name": "GINGE HOLDINGS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-10-21",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 4,
+  "total_net_assets": 0,
+  "fetched_at": "05 Jun 2026 09:54 UTC"
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "tayz",
+  "name": "Tayz",
+  "real_name": "Michael Joseph Taylor",
+  "group": "The Bov Boys",
+  "officer_name": "TAYLOR, Michael Joseph",
+  "officer_id": "Z24fJ1qNydyV1ekle5YJFfr6dkI",
+  "companies": [
+    {
+      "number": "13841618",
+      "name": "SIX INTERNATIONAL LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-02-15",
+      "balance_sheet": {
+        "date": "31 March 2023",
+        "year": 2023,
+        "creditors": -79582,
+        "net_current_assets": 38942,
+        "net_assets": 38942,
+        "total_equity": 38942,
+        "_filing_date": "2023-04-20"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 March 2023",
+          "year": 2023,
+          "creditors": -79582,
+          "net_current_assets": 38942,
+          "net_assets": 38942,
+          "total_equity": 38942,
+          "_filing_date": "2023-04-20"
+        }
+      ],
+      "filing_date": "2023-04-20",
+      "filing_description": "accounts-with-accounts-type-micro-entity"
+    },
+    {
+      "number": "15732286",
+      "name": "M62 TEXTILES LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-05-21",
+      "balance_sheet": {
+        "date": "31 May 2025",
+        "year": 2025,
+        "called_up_capital": 0,
+        "creditors": -10498,
+        "net_current_assets": 6233,
+        "net_assets": 6233,
+        "total_equity": 6233,
+        "_filing_date": "2026-02-26"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 May 2025",
+          "year": 2025,
+          "called_up_capital": 0,
+          "creditors": -10498,
+          "net_current_assets": 6233,
+          "net_assets": 6233,
+          "total_equity": 6233,
+          "_filing_date": "2026-02-26"
+        }
+      ],
+      "filing_date": "2026-02-26",
+      "filing_description": "accounts-with-accounts-type-micro-entity"
+    },
+    {
+      "number": "16628776",
+      "name": "BOV BOYS ENTERTAINMENT LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-08-05",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "13540485",
+      "name": "TAYLORMADE MUSIC LTD",
+      "status": "dissolved",
+      "role": "director",
+      "appointed_on": "2021-07-30",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 4,
+  "total_net_assets": 45175,
+  "fetched_at": "05 Jun 2026 09:54 UTC"
+}

@@ -1,25 +1,20 @@
 {% extends "base.html" %}
-{% block title %}
-  {{ group.display_name if group else company_number }} | UK YouTubers
-{% endblock %}
+{% block title %}{{ yt.name }} | UK YouTubers{% endblock %}
 
 {% block content %}
 
 {# ── Page header ─────────────────────────────────────────────────────────── #}
 <div class="flex flex-wrap items-center gap-3 mb-6">
-  <a href="/" class="text-slate-400 hover:text-slate-600 text-sm">← All Groups</a>
+  <a href="/youtubers" class="text-slate-400 hover:text-slate-600 text-sm">← All YouTubers</a>
   <div class="flex-1">
-    <h1 class="text-2xl font-bold text-slate-900">
-      {{ group.display_name if group else (data.company_name if data else company_number) }}
-    </h1>
-    {% if data %}
+    <h1 class="text-2xl font-bold text-slate-900">{{ yt.name }}</h1>
     <p class="text-xs text-slate-400 mt-0.5">
-      Seed: {{ data.company_name | company_name }} · {{ data.company_number }}
+      {{ yt.real_name }} · {{ yt.group }}
+      {% if data %} · {{ data.officer_name | format_name }}{% endif %}
     </p>
-    {% endif %}
   </div>
   {% if data and not readonly %}
-  <form method="POST" action="/group/{{ data.company_number }}/refresh">
+  <form method="POST" action="/youtuber/{{ slug }}/refresh">
     <button class="text-xs border border-slate-300 rounded-lg px-3 py-1.5
                    hover:bg-slate-100 transition-colors text-slate-600">
       ↻ Refresh
@@ -34,7 +29,7 @@
   <div class="w-14 h-14 rounded-full border-4 border-blue-200 border-t-blue-600 spinner mb-6"></div>
   <h2 class="text-xl font-semibold text-slate-700">Fetching data from Companies House…</h2>
   <p class="text-slate-400 mt-2 max-w-lg text-sm">
-    Finding every company each member is associated with, then downloading and reading
+    Finding every company {{ yt.name }} is a director of, then downloading and reading
     each balance sheet PDF. This takes <strong>1–3 minutes</strong> on first load —
     results are cached so future visits are instant.
   </p>
@@ -59,10 +54,10 @@
 <div class="bg-red-50 border border-red-200 rounded-2xl p-8 text-center">
   <p class="text-red-700 font-semibold text-lg mb-2">Fetch failed</p>
   <p class="text-sm text-red-500 mb-4">
-    Could not retrieve data from Companies House.
+    Could not find {{ yt.name }} on Companies House, or the API call failed.
     Make sure your <code class="bg-red-100 px-1 rounded">CH_API_KEY</code> is set correctly in <code>.env</code>.
   </p>
-  <form method="POST" action="/group/{{ group.company_number if group else '' }}/refresh">
+  <form method="POST" action="/youtuber/{{ slug }}/refresh">
     <button class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-lg text-sm transition-colors">
       Try Again
     </button>
@@ -73,46 +68,22 @@
 {% elif status == "complete" and data %}
 
 {# Summary strip #}
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
-  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
-    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Members</div>
-    <div class="text-2xl font-bold text-slate-900">{{ data.officers | length }}</div>
-  </div>
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
     <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Companies</div>
     <div class="text-2xl font-bold text-slate-900">{{ data.total_companies }}</div>
   </div>
-  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4 col-span-2">
-    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Combined Net Assets</div>
+  <div class="bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-4">
+    <div class="text-xs text-slate-400 uppercase tracking-widest mb-1">Total Net Assets</div>
     <div class="text-2xl font-bold {{ 'num-pos' if data.total_net_assets > 0 else 'num-neg' }}">
       {{ data.total_net_assets | currency }}
     </div>
   </div>
 </div>
 
-{# Officers #}
-<div class="space-y-6">
-{% for officer in data.officers %}
+{# Companies table #}
+{% if data.companies %}
 <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-
-  {# Officer header #}
-  <div class="bg-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-3">
-    <div>
-      <h2 class="text-white font-bold text-lg leading-tight">
-        {{ officer.name | format_name }}
-      </h2>
-      <span class="text-slate-400 text-xs capitalize">{{ officer.role }}</span>
-    </div>
-    <div class="text-right">
-      <div class="text-xs text-slate-500 uppercase tracking-wide">Total Net Assets</div>
-      <div class="font-bold text-lg {{ 'num-pos' if officer.total_net_assets > 0 else ('num-neg' if officer.total_net_assets < 0 else 'text-slate-300') }}">
-        {{ officer.total_net_assets | currency }}
-      </div>
-    </div>
-  </div>
-
-  {# Companies table #}
-  {% if officer.companies %}
   <div class="overflow-x-auto">
     <table class="w-full text-sm">
       <thead class="border-b border-slate-200 bg-slate-50">
@@ -126,10 +97,9 @@
         </tr>
       </thead>
       <tbody class="divide-y divide-slate-100">
-      {% for company in officer.companies %}
-        {# Main company row — click to expand #}
+      {% for company in data.companies %}
         <tr class="hover:bg-slate-50 cursor-pointer transition-colors"
-            onclick="toggle('detail-{{ company.number }}-{{ loop.index }}')">
+            onclick="toggle('detail-{{ loop.index }}')">
           <td class="px-6 py-3">
             <div class="font-medium text-slate-900">{{ company.name | company_name }}</div>
             <div class="text-xs text-slate-400 font-mono mt-0.5">{{ company.number }}</div>
@@ -162,13 +132,12 @@
         </tr>
 
         {# Expandable detail row #}
-        <tr id="detail-{{ company.number }}-{{ loop.index }}" class="hidden">
+        <tr id="detail-{{ loop.index }}" class="hidden">
           <td colspan="6" class="px-6 py-5 bg-slate-50 border-b border-slate-200">
           {% if company.balance_sheet %}
             {% set bs = company.balance_sheet %}
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-              {# Balance sheet table #}
               <div>
                 <div class="flex items-center justify-between mb-3">
                   <h4 class="font-semibold text-slate-700 text-sm">
@@ -186,12 +155,8 @@
                   <thead>
                     <tr class="border-b border-slate-200 text-slate-500">
                       <th class="text-left py-1.5 font-medium">Item</th>
-                      <th class="text-right py-1.5 font-medium pr-2">
-                        {{ bs.year if bs.year else "Current" }}
-                      </th>
-                      <th class="text-right py-1.5 font-medium text-slate-400">
-                        {{ bs.prior_year if bs.prior_year else "Prior" }}
-                      </th>
+                      <th class="text-right py-1.5 font-medium pr-2">{{ bs.year if bs.year else "Current" }}</th>
+                      <th class="text-right py-1.5 font-medium text-slate-400">{{ bs.prior_year if bs.prior_year else "Prior" }}</th>
                     </tr>
                   </thead>
                   <tbody class="divide-y divide-slate-100">
@@ -200,9 +165,7 @@
                     <tr>
                       <td class="py-1.5 text-slate-600">Fixed Assets</td>
                       <td class="text-right pr-2 font-mono">{{ bs.fixed_assets | currency }}</td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.fixed_assets_prior | currency if bs.fixed_assets_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.fixed_assets_prior | currency if bs.fixed_assets_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
@@ -210,9 +173,7 @@
                     <tr>
                       <td class="py-1.5 pl-4 text-slate-500">Investments</td>
                       <td class="text-right pr-2 font-mono">{{ bs.investments | currency }}</td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.investments_prior | currency if bs.investments_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.investments_prior | currency if bs.investments_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
@@ -220,9 +181,7 @@
                     <tr>
                       <td class="py-1.5 text-slate-600">Debtors</td>
                       <td class="text-right pr-2 font-mono">{{ bs.debtors | currency }}</td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.debtors_prior | currency if bs.debtors_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.debtors_prior | currency if bs.debtors_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
@@ -237,44 +196,30 @@
                     {% if bs.creditors is defined %}
                     <tr>
                       <td class="py-1.5 text-slate-600">Creditors (&lt; 1 yr)</td>
-                      <td class="text-right pr-2 font-mono {{ 'num-neg' if bs.creditors < 0 else '' }}">
-                        {{ bs.creditors | currency }}
-                      </td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.creditors_prior | currency if bs.creditors_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right pr-2 font-mono {{ 'num-neg' if bs.creditors < 0 else '' }}">{{ bs.creditors | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.creditors_prior | currency if bs.creditors_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
                     {% if bs.net_current_assets is defined %}
                     <tr class="font-semibold">
                       <td class="py-1.5 text-slate-700">Net Current Assets</td>
-                      <td class="text-right pr-2 font-mono {{ 'num-pos' if bs.net_current_assets >= 0 else 'num-neg' }}">
-                        {{ bs.net_current_assets | currency }}
-                      </td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.net_current_assets_prior | currency if bs.net_current_assets_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right pr-2 font-mono {{ 'num-pos' if bs.net_current_assets >= 0 else 'num-neg' }}">{{ bs.net_current_assets | currency }}</td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.net_current_assets_prior | currency if bs.net_current_assets_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
                     <tr class="border-t-2 border-slate-300 font-bold">
                       <td class="py-2 text-slate-900">Net Assets</td>
-                      <td class="text-right pr-2 font-mono {{ 'num-pos' if (bs.net_assets is defined and bs.net_assets >= 0) else 'num-neg' }}">
-                        {{ bs.net_assets | currency }}
-                      </td>
-                      <td class="text-right font-mono text-slate-500">
-                        {{ bs.net_assets_prior | currency if bs.net_assets_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right pr-2 font-mono {{ 'num-pos' if (bs.net_assets is defined and bs.net_assets >= 0) else 'num-neg' }}">{{ bs.net_assets | currency }}</td>
+                      <td class="text-right font-mono text-slate-500">{{ bs.net_assets_prior | currency if bs.net_assets_prior is defined else '—' }}</td>
                     </tr>
 
                     {% if bs.called_up_capital is defined %}
                     <tr>
                       <td class="py-1.5 pl-4 text-slate-500">Share Capital</td>
                       <td class="text-right pr-2 font-mono">{{ bs.called_up_capital | currency }}</td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.called_up_capital_prior | currency if bs.called_up_capital_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.called_up_capital_prior | currency if bs.called_up_capital_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
@@ -282,9 +227,7 @@
                     <tr>
                       <td class="py-1.5 pl-4 text-slate-500">P&amp;L Reserves</td>
                       <td class="text-right pr-2 font-mono">{{ bs.profit_loss_reserves | currency }}</td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.profit_loss_reserves_prior | currency if bs.profit_loss_reserves_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.profit_loss_reserves_prior | currency if bs.profit_loss_reserves_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
@@ -292,9 +235,7 @@
                     <tr class="border-t border-slate-200 font-semibold">
                       <td class="py-1.5 text-slate-900">Total Equity</td>
                       <td class="text-right pr-2 font-mono">{{ bs.total_equity | currency }}</td>
-                      <td class="text-right font-mono text-slate-400">
-                        {{ bs.total_equity_prior | currency if bs.total_equity_prior is defined else '—' }}
-                      </td>
+                      <td class="text-right font-mono text-slate-400">{{ bs.total_equity_prior | currency if bs.total_equity_prior is defined else '—' }}</td>
                     </tr>
                     {% endif %}
 
@@ -302,7 +243,6 @@
                 </table>
               </div>
 
-              {# Timeline / Year-on-Year panel #}
               <div>
                 {% set history = company.all_balance_sheets if company.all_balance_sheets else [] %}
                 {% if history | length >= 2 %}
@@ -394,13 +334,12 @@
       </tbody>
     </table>
   </div>
-  {% else %}
-  <div class="px-6 py-4 text-sm text-slate-400 italic">No active company appointments found.</div>
-  {% endif %}
-
 </div>
-{% endfor %}
+{% else %}
+<div class="bg-white rounded-2xl border border-slate-200 p-8 text-center text-sm text-slate-400 italic">
+  No active company appointments found for {{ yt.name }}.
 </div>
+{% endif %}
 
 <p class="text-center text-xs text-slate-400 mt-6">
   Last fetched {{ data.fetched_at }} · Refreshes every hour · Click any row to expand its balance sheet
@@ -413,7 +352,7 @@
 {% if status in ("running", "idle") %}
 <script>
   (function poll() {
-    fetch('/api/group/{{ (group.company_number if group else company_number) }}/status')
+    fetch('/api/youtuber/{{ slug }}/status')
       .then(r => r.json())
       .then(d => {
         if (d.status === 'complete' || d.status === 'error') {

@@ -1,0 +1,24 @@
+{
+  "slug": "stephen-tries",
+  "name": "Stephen Tries",
+  "real_name": "Stephen Lawson",
+  "group": "Sidemen Orbit",
+  "officer_name": "LAWSON, Stephen Jonathan",
+  "officer_id": "jIhyPaKEqqEJCoY7yeTtfW8Oi80",
+  "companies": [
+    {
+      "number": "11578506",
+      "name": "W&S TOURING LIMITED",
+      "status": "dissolved",
+      "role": "director",
+      "appointed_on": "2018-09-20",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 1,
+  "total_net_assets": 0,
+  "fetched_at": "05 Jun 2026 09:53 UTC"
+}
