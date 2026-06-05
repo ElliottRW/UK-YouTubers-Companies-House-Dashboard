@@ -30,7 +30,7 @@ YOUTUBERS = [
     {"name": "Randolph",     "real_name": "Andrew John Shane",                 "seed_company": "11846410", "surname": "SHANE",     "group": "Sidemen Orbit"},
     {"name": "Theo Baker",   "real_name": "Theodore Philip Thomas Baker",      "seed_company": "10518815", "surname": "BAKER",     "group": "Sidemen Orbit"},
     {"name": "Deji",         "real_name": "Oladeji Olatunji",                  "seed_company": "08208163", "surname": "OLATUNJI",  "group": "Sidemen Orbit"},
-    {"name": "WillNE",       "real_name": "William Jonathan Lenney",           "seed_company": "10546302", "surname": "LENNEY",    "group": "Sidemen Orbit"},
+    {"name": "WillNE",       "real_name": "William Jonathan Lenney",           "seed_company": "10546302", "surname": "LENNEY",    "group": "Sidemen Orbit", "extra_seed_companies": ["15472790"]},
     {"name": "Danny Aarons", "real_name": "Daniel Peter Aarons",               "seed_company": "14121151", "surname": "AARONS",    "group": "Sidemen Orbit"},
 
     # ── Friends from Work ────────────────────────────────────────────────
