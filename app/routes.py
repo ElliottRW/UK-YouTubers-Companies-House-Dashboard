@@ -500,12 +500,16 @@ async def _fetch_youtuber(slug: str):
         pdf_sem = asyncio.Semaphore(3)
 
         # Find this person's officer record within the seed company
+        # Prefer "director" role when multiple officers share the same surname
         officers = await client.get_officers(str(yt["seed_company"]))
         surname_upper = yt["surname"].upper()
-        officer = next(
-            (o for o in officers if surname_upper in o.get("name", "").upper()),
-            None,
-        )
+        def _match_officer(officer_list):
+            surname_matches = [o for o in officer_list if surname_upper in o.get("name", "").upper()]
+            return (
+                next((o for o in surname_matches if o.get("officer_role") == "director"), None)
+                or (surname_matches[0] if surname_matches else None)
+            )
+        officer = _match_officer(officers)
         if not officer:
             logger.warning(f"[youtuber:{slug}] Could not find officer with surname {surname_upper}")
             _fetch_status[cache_key] = "error"
@@ -521,28 +525,25 @@ async def _fetch_youtuber(slug: str):
             appointments = await client.get_appointments(officer_id)
 
         # Merge appointments from any extra seed companies (separate CH officer profiles)
-        seen_cns = {a.get("appointed_to", {}).get("company_number") for a in appointments}
         for extra_cn in yt.get("extra_seed_companies", []):
             extra_officers = await client.get_officers(str(extra_cn))
-            extra_officer = next(
-                (o for o in extra_officers if surname_upper in o.get("name", "").upper()), None
-            )
+            extra_officer = _match_officer(extra_officers)
             if extra_officer:
                 extra_id = client.extract_officer_id(extra_officer)
                 if extra_id and extra_id != officer_id:
                     async with api_sem:
                         extra_appts = await client.get_appointments(extra_id)
-                    for appt in extra_appts:
-                        cn = appt.get("appointed_to", {}).get("company_number")
-                        if cn and cn not in seen_cns:
-                            appointments.append(appt)
-                            seen_cns.add(cn)
+                    appointments.extend(extra_appts)
 
-        active_appts = [
-            a for a in appointments
-            if not a.get("resigned_on")
-            and a.get("appointed_to", {}).get("company_number")
-        ]
+        # Deduplicate: keep the non-resigned appointment when a company appears on multiple profiles
+        seen_active: set[str] = set()
+        active_appts = []
+        for a in appointments:
+            cn = a.get("appointed_to", {}).get("company_number")
+            if not cn or a.get("resigned_on") or cn in seen_active:
+                continue
+            active_appts.append(a)
+            seen_active.add(cn)
         logger.info(f"[youtuber:{slug}] {len(active_appts)} active appointments")
 
         companies = list(await asyncio.gather(
