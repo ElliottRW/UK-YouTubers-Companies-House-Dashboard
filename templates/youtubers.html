@@ -30,7 +30,7 @@
       <tbody class="divide-y divide-slate-100">
         {% for y in members %}
         <tr class="hover:bg-slate-50 transition-colors cursor-pointer"
-            onclick="window.location=this.querySelector('a').href"
+            onclick="window.location=this.querySelector('a').href">
           <td class="px-5 py-3 font-semibold text-slate-900">
             <a href="youtuber/{{ y.slug }}/" class="hover:text-blue-600 transition-colors">{{ y.name }}</a>
           </td>
