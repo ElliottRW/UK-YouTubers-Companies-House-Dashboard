@@ -87,10 +87,14 @@ def main():
 
     env = build_jinja_env()
 
-    # Home page
-    render(env, "index.html", OUTPUT_DIR / "index.html",
-           groups=load_groups(), readonly=True)
-    print("  index.html")
+    # Home page — redirect to youtubers directory
+    (OUTPUT_DIR / "index.html").write_text(
+        '<!DOCTYPE html><html><head><meta charset="UTF-8">'
+        f'<meta http-equiv="refresh" content="0; url=youtubers/">'
+        f'<link rel="canonical" href="youtubers/"></head><body></body></html>',
+        encoding="utf-8",
+    )
+    print("  index.html  (redirect → youtubers/)")
 
     # YouTubers directory
     render(env, "youtubers.html", OUTPUT_DIR / "youtubers" / "index.html",
