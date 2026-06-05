@@ -57,16 +57,6 @@ def main():
     from app.config import load_groups
 
     # Build grouped directory structure
-    group_order, seen, ordered_groups = [], set(), {}
-    for y in YOUTUBERS:
-        g = y["group"]
-        entry = {**y, "slug": _slugify(y["name"])}
-        if g not in seen:
-            group_order.append(g)
-            seen.add(g)
-            ordered_groups[g] = []
-        ordered_groups[g].append(entry)
-
     # Load all JSON data files
     youtuber_data = {}
     for y in YOUTUBERS:
@@ -74,6 +64,21 @@ def main():
         path = DATA_DIR / f"{slug}.json"
         if path.exists():
             youtuber_data[slug] = json.loads(path.read_text())
+
+    group_order, seen, ordered_groups = [], set(), {}
+    for y in YOUTUBERS:
+        g = y["group"]
+        slug = _slugify(y["name"])
+        entry = {
+            **y,
+            "slug": slug,
+            "total_net_assets": youtuber_data.get(slug, {}).get("total_net_assets"),
+        }
+        if g not in seen:
+            group_order.append(g)
+            seen.add(g)
+            ordered_groups[g] = []
+        ordered_groups[g].append(entry)
 
     # Wipe and recreate docs/
     if OUTPUT_DIR.exists():
