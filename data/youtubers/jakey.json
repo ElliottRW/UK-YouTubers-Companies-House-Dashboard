@@ -1,0 +1,24 @@
+{
+  "slug": "jakey",
+  "name": "Jakey",
+  "real_name": "Jake Michael Davies",
+  "group": "The Bov Boys",
+  "officer_name": "DAVIES, Jake Michael",
+  "officer_id": "-Nkdhso1mr1XtydcL_e5yCIXZKo",
+  "companies": [
+    {
+      "number": "16400805",
+      "name": "JAKEYDAVIES LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-04-22",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 1,
+  "total_net_assets": 0,
+  "fetched_at": "05 Jun 2026 12:21 UTC"
+}

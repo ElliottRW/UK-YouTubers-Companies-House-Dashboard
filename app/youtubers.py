@@ -50,4 +50,5 @@ YOUTUBERS = [
     {"name": "Angry Ginge",  "real_name": "Morgan Sam Lee Burtwistle",         "seed_company": "16628776", "surname": "BURTWISTLE","group": "The Bov Boys", "extra_seed_companies": ["13908395"]},
     {"name": "Heinzbains",   "real_name": "Ryan McCaul",                       "seed_company": "16628776", "surname": "MCCAUL",    "group": "The Bov Boys"},
     {"name": "Tayz",         "real_name": "Michael Joseph Taylor",             "seed_company": "16628776", "surname": "TAYLOR",    "group": "The Bov Boys"},
+    {"name": "Jakey",        "real_name": "Jake Michael Davies",               "seed_company": "16400805", "surname": "DAVIES",    "group": "The Bov Boys"},
 ]
