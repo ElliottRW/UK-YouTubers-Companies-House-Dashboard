@@ -1476,6 +1476,13 @@
           "net_assets": 240,
           "total_equity": 240,
           "_filing_date": "2023-02-01"
+        },
+        {
+          "date": "30 June 2022",
+          "year": 2022,
+          "net_assets": 240,
+          "total_equity": 240,
+          "_filing_date": "2023-02-01"
         }
       ],
       "filing_date": "2025-09-30",
@@ -1484,5 +1491,5 @@
   ],
   "total_companies": 16,
   "total_net_assets": 209078270,
-  "fetched_at": "05 Jun 2026 09:52 UTC"
+  "fetched_at": "05 Jun 2026 12:07 UTC"
 }
