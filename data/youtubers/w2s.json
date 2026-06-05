@@ -116,6 +116,86 @@
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
     },
     {
+      "number": "13568263",
+      "name": "W2S MEDIA GLOBAL LTD",
+      "status": "active",
+      "role": "secretary",
+      "appointed_on": "2021-08-16",
+      "balance_sheet": {
+        "date": "31 December 2024",
+        "year": 2024,
+        "prior_year": 2023,
+        "creditors": -328536,
+        "net_current_assets": -275381,
+        "net_assets": -275381,
+        "total_equity": -275381,
+        "creditors_prior": -195983,
+        "net_current_assets_prior": -146814,
+        "net_assets_prior": -146814,
+        "total_equity_prior": -146814,
+        "_filing_date": "2025-08-26"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 December 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "creditors": -328536,
+          "net_current_assets": -275381,
+          "net_assets": -275381,
+          "total_equity": -275381,
+          "creditors_prior": -195983,
+          "net_current_assets_prior": -146814,
+          "net_assets_prior": -146814,
+          "total_equity_prior": -146814,
+          "_filing_date": "2025-08-26"
+        },
+        {
+          "date": "31 December 2023",
+          "year": 2023,
+          "prior_year": 2022,
+          "creditors": -195983,
+          "net_current_assets": -146814,
+          "net_assets": -146814,
+          "total_equity": -146814,
+          "creditors_prior": -156280,
+          "net_current_assets_prior": 27675,
+          "net_assets_prior": 27675,
+          "total_equity_prior": 27675,
+          "_filing_date": "2024-09-23"
+        },
+        {
+          "date": "31 December 2022",
+          "year": 2022,
+          "prior_year": 2021,
+          "debtors": 96389,
+          "creditors": -156279,
+          "net_current_assets": 27675,
+          "net_assets": 27675,
+          "total_equity": 27675,
+          "debtors_prior": 10,
+          "creditors_prior": -8900,
+          "net_current_assets_prior": -890,
+          "net_assets_prior": -890,
+          "total_equity_prior": -890,
+          "_filing_date": "2023-09-26"
+        },
+        {
+          "date": "31 December 2021",
+          "year": 2021,
+          "prior_year": 2021,
+          "debtors": 10,
+          "creditors": -8900,
+          "net_current_assets": -890,
+          "net_assets": -890,
+          "total_equity": -890,
+          "_filing_date": "2022-09-30"
+        }
+      ],
+      "filing_date": "2025-08-26",
+      "filing_description": "accounts-with-accounts-type-micro-entity"
+    },
+    {
       "number": "13468234",
       "name": "SIDEMEN VENTURES LIMITED",
       "status": "active",
@@ -189,7 +269,7 @@
       "filing_description": "accounts-with-accounts-type-micro-entity"
     }
   ],
-  "total_companies": 2,
-  "total_net_assets": 731950,
-  "fetched_at": "05 Jun 2026 09:52 UTC"
+  "total_companies": 3,
+  "total_net_assets": 456569,
+  "fetched_at": "05 Jun 2026 11:22 UTC"
 }

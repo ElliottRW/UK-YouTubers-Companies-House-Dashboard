@@ -84,6 +84,24 @@ async def _fetch_one(yt: dict, client: _ThrottledClient) -> Optional[dict]:
     async with api_sem:
         appointments = await client.get_appointments(officer_id)
 
+    # Merge appointments from any extra seed companies (separate CH officer profiles)
+    seen_cns = {a.get("appointed_to", {}).get("company_number") for a in appointments}
+    for extra_cn in yt.get("extra_seed_companies", []):
+        extra_officers = await client.get_officers(str(extra_cn))
+        extra_officer = next(
+            (o for o in extra_officers if surname_upper in o.get("name", "").upper()), None
+        )
+        if extra_officer:
+            extra_id = client.extract_officer_id(extra_officer)
+            if extra_id and extra_id != officer_id:
+                async with api_sem:
+                    extra_appts = await client.get_appointments(extra_id)
+                for appt in extra_appts:
+                    cn = appt.get("appointed_to", {}).get("company_number")
+                    if cn and cn not in seen_cns:
+                        appointments.append(appt)
+                        seen_cns.add(cn)
+
     active_appts = [
         a for a in appointments
         if not a.get("resigned_on")
