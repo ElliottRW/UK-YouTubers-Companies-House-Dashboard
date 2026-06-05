@@ -1,0 +1,171 @@
+{
+  "slug": "cole-anderson-james",
+  "name": "Cole Anderson-James",
+  "real_name": "Cole Anderson-James",
+  "group": "Other UK YouTubers",
+  "officer_name": "ANDERSON-JAMES, Cole",
+  "officer_id": "s-gR2HV1GKA2lXtPiSpDEzBoNbQ",
+  "companies": [
+    {
+      "number": "13911229",
+      "name": "KUALA LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2022-02-11",
+      "balance_sheet": {
+        "date": "31 March 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "fixed_assets": 82178,
+        "creditors": -206095,
+        "net_current_assets": 751530,
+        "net_assets": 833708,
+        "total_equity": 833708,
+        "fixed_assets_prior": 504737,
+        "creditors_prior": -106175,
+        "net_current_assets_prior": 49226,
+        "net_assets_prior": 553963,
+        "total_equity_prior": 553963,
+        "_filing_date": "2026-03-03"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 March 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "fixed_assets": 82178,
+          "creditors": -206095,
+          "net_current_assets": 751530,
+          "net_assets": 833708,
+          "total_equity": 833708,
+          "fixed_assets_prior": 504737,
+          "creditors_prior": -106175,
+          "net_current_assets_prior": 49226,
+          "net_assets_prior": 553963,
+          "total_equity_prior": 553963,
+          "_filing_date": "2026-03-03"
+        },
+        {
+          "date": "31 March 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "fixed_assets": 479275,
+          "debtors": 25000,
+          "creditors": -106175,
+          "net_current_assets": 49226,
+          "net_assets": 553963,
+          "total_equity": 553963,
+          "fixed_assets_prior": 200000,
+          "creditors_prior": -102709,
+          "net_current_assets_prior": 146025,
+          "net_assets_prior": 346025,
+          "total_equity_prior": 346025,
+          "_filing_date": "2024-12-30"
+        },
+        {
+          "date": "31 March 2023",
+          "year": 2023,
+          "prior_year": 2022,
+          "fixed_assets": 200000,
+          "creditors": -102709,
+          "net_current_assets": 146025,
+          "net_assets": 346025,
+          "total_equity": 346025,
+          "_filing_date": "2023-11-06"
+        }
+      ],
+      "filing_date": "2026-03-03",
+      "filing_description": "accounts-with-accounts-type-micro-entity"
+    },
+    {
+      "number": "14924240",
+      "name": "CAJ INVEST LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2023-06-08",
+      "balance_sheet": {
+        "date": "30 June 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "debtors": 6331,
+        "creditors": -186159,
+        "net_current_assets": -171732,
+        "net_assets": 16406,
+        "total_equity": 16406,
+        "debtors_prior": 0,
+        "creditors_prior": -156572,
+        "net_current_assets_prior": -156472,
+        "net_assets_prior": -1972,
+        "total_equity_prior": -2272,
+        "_filing_date": "2026-03-25"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "30 June 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "debtors": 6331,
+          "creditors": -186159,
+          "net_current_assets": -171732,
+          "net_assets": 16406,
+          "total_equity": 16406,
+          "debtors_prior": 0,
+          "creditors_prior": -156572,
+          "net_current_assets_prior": -156472,
+          "net_assets_prior": -1972,
+          "total_equity_prior": -2272,
+          "_filing_date": "2026-03-25"
+        },
+        {
+          "date": "30 June 2024",
+          "year": 2024,
+          "prior_year": 2023,
+          "fixed_assets": 154500,
+          "creditors": -300,
+          "net_current_assets": 200,
+          "net_assets": 154300,
+          "total_equity": 2272,
+          "_filing_date": "2025-03-03"
+        }
+      ],
+      "filing_date": "2026-03-25",
+      "filing_description": "accounts-with-accounts-type-total-exemption-full"
+    },
+    {
+      "number": "17105846",
+      "name": "COLD MASH LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2026-03-20",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "17024391",
+      "name": "KUALA HOLDINGS LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2026-02-10",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
+      "number": "16714653",
+      "name": "BINKSIFY LIMITED",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2025-09-12",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    }
+  ],
+  "total_companies": 5,
+  "total_net_assets": 850114,
+  "fetched_at": "05 Jun 2026 12:11 UTC"
+}

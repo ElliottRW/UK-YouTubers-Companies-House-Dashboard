@@ -40,9 +40,11 @@ YOUTUBERS = [
     {"name": "Italian Bach", "real_name": "Isaac Craven Smith",                "seed_company": "17047852", "surname": "SMITH",     "group": "Friends from Work"},
 
     # ── Other UK YouTubers ───────────────────────────────────────────────
-    {"name": "Max Fosh",         "real_name": "Maximilian Arthur Fosh",        "seed_company": "12069656", "surname": "FOSH",      "group": "Other UK YouTubers"},
-    {"name": "AB",               "real_name": "Alfie Noah Buttle",             "seed_company": "16166511", "surname": "BUTTLE",    "group": "Other UK YouTubers"},
-    {"name": "MrWho'sTheBoss",   "real_name": "Arun Maini",                    "seed_company": "11130068", "surname": "MAINI",     "group": "Other UK YouTubers"},
+    {"name": "Max Fosh",           "real_name": "Maximilian Arthur Fosh",      "seed_company": "12069656", "surname": "FOSH",          "group": "Other UK YouTubers"},
+    {"name": "AB",                 "real_name": "Alfie Noah Buttle",           "seed_company": "16166511", "surname": "BUTTLE",        "group": "Other UK YouTubers"},
+    {"name": "MrWho'sTheBoss",     "real_name": "Arun Maini",                  "seed_company": "11130068", "surname": "MAINI",         "group": "Other UK YouTubers"},
+    {"name": "Cole Anderson-James","real_name": "Cole Anderson-James",         "seed_company": "13911229", "surname": "ANDERSON-JAMES","group": "Other UK YouTubers"},
+    {"name": "Jack Joseph",        "real_name": "Jack George Joseph",          "seed_company": "13900765", "surname": "JOSEPH",        "group": "Other UK YouTubers"},
 
     # ── The Bov Boys ─────────────────────────────────────────────────────
     {"name": "Angry Ginge",  "real_name": "Morgan Sam Lee Burtwistle",         "seed_company": "16628776", "surname": "BURTWISTLE","group": "The Bov Boys"},
