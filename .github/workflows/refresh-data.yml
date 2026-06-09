@@ -1,0 +1,50 @@
+name: Refresh Financial Data
+
+on:
+  # Run every Sunday at 02:00 UTC
+  schedule:
+    - cron: "0 2 * * 0"
+  # Also allow manual trigger from the GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to push the updated data + docs back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30   # fetch_all typically takes ~3 min; this is a safety cap
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch latest Companies House data
+        env:
+          CH_API_KEY: ${{ secrets.CH_API_KEY }}
+        run: python scripts/fetch_all.py
+
+      - name: Build static site
+        run: python scripts/build_static.py
+
+      - name: Commit & push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/youtubers/ docs/
+          # Only commit when there are staged changes (avoids empty commits)
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
+          else
+            git commit -m "chore: refresh financial data $(date -u +'%Y-%m-%d')"
+            git push
+          fi
