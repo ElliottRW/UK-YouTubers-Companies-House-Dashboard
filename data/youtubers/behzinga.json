@@ -404,24 +404,6 @@
           "_filing_date": "2022-08-31"
         },
         {
-          "date": "30 November 2020",
-          "year": 2020,
-          "prior_year": 2019,
-          "fixed_assets": 10,
-          "debtors": 262547,
-          "creditors": -156685,
-          "net_current_assets": 988983,
-          "net_assets": 996438,
-          "total_equity": 995023,
-          "fixed_assets_prior": 10,
-          "debtors_prior": 64327,
-          "creditors_prior": -32431,
-          "net_current_assets_prior": 368949,
-          "net_assets_prior": 382197,
-          "total_equity_prior": 382197,
-          "_filing_date": "2021-08-31"
-        },
-        {
           "date": "30 November 2019",
           "year": 2019,
           "prior_year": 2018,
@@ -877,5 +859,5 @@
   ],
   "total_companies": 10,
   "total_net_assets": 8794467,
-  "fetched_at": "24 Jun 2026 10:05 UTC"
+  "fetched_at": "28 Jun 2026 06:15 UTC"
 }
