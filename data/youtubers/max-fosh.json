@@ -13,24 +13,42 @@
       "role": "director",
       "appointed_on": "2019-06-25",
       "balance_sheet": {
-        "date": "30 June 2024",
-        "year": 2024,
-        "prior_year": 2023,
-        "fixed_assets": 268252,
-        "debtors": 200724,
-        "creditors": -206512,
-        "net_current_assets": 418384,
-        "net_assets": 690941,
-        "total_equity": 685987,
-        "fixed_assets_prior": 19980,
-        "debtors_prior": 59427,
-        "creditors_prior": -70645,
-        "net_current_assets_prior": 230069,
-        "net_assets_prior": 253328,
-        "total_equity_prior": 253328,
-        "_filing_date": "2025-03-26"
+        "date": "30 June 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "fixed_assets": 747044,
+        "debtors": 178374,
+        "creditors": -184708,
+        "net_current_assets": 270597,
+        "net_assets": 1021409,
+        "total_equity": 1010472,
+        "fixed_assets_prior": 268252,
+        "debtors_prior": 200724,
+        "creditors_prior": -206512,
+        "net_current_assets_prior": 418384,
+        "net_assets_prior": 690941,
+        "total_equity_prior": 685987,
+        "_filing_date": "2026-06-29"
       },
       "all_balance_sheets": [
+        {
+          "date": "30 June 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "fixed_assets": 747044,
+          "debtors": 178374,
+          "creditors": -184708,
+          "net_current_assets": 270597,
+          "net_assets": 1021409,
+          "total_equity": 1010472,
+          "fixed_assets_prior": 268252,
+          "debtors_prior": 200724,
+          "creditors_prior": -206512,
+          "net_current_assets_prior": 418384,
+          "net_assets_prior": 690941,
+          "total_equity_prior": 685987,
+          "_filing_date": "2026-06-29"
+        },
         {
           "date": "30 June 2024",
           "year": 2024,
@@ -107,11 +125,11 @@
           "_filing_date": "2021-03-25"
         }
       ],
-      "filing_date": "2025-03-26",
+      "filing_date": "2026-06-29",
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
     }
   ],
   "total_companies": 1,
-  "total_net_assets": 690941,
-  "fetched_at": "28 Jun 2026 06:18 UTC"
+  "total_net_assets": 1021409,
+  "fetched_at": "05 Jul 2026 06:05 UTC"
 }
