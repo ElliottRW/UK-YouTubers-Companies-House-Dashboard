@@ -94,6 +94,37 @@
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
     },
     {
+      "number": "16077338",
+      "name": "ONE OF THE PEOPLE LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-11-13",
+      "balance_sheet": {
+        "date": "30 November 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "creditors": -8220,
+        "net_current_assets": 33636,
+        "net_assets": 33636,
+        "total_equity": 32436,
+        "_filing_date": "2026-07-13"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "30 November 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "creditors": -8220,
+          "net_current_assets": 33636,
+          "net_assets": 33636,
+          "total_equity": 32436,
+          "_filing_date": "2026-07-13"
+        }
+      ],
+      "filing_date": "2026-07-13",
+      "filing_description": "accounts-with-accounts-type-micro-entity"
+    },
+    {
       "number": "16628776",
       "name": "BOV BOYS ENTERTAINMENT LTD",
       "status": "active",
@@ -114,20 +145,9 @@
       "all_balance_sheets": [],
       "filing_date": null,
       "filing_description": null
-    },
-    {
-      "number": "16077338",
-      "name": "ONE OF THE PEOPLE LTD",
-      "status": "active",
-      "role": "director",
-      "appointed_on": "2024-11-13",
-      "balance_sheet": null,
-      "all_balance_sheets": [],
-      "filing_date": null,
-      "filing_description": null
     }
   ],
   "total_companies": 5,
-  "total_net_assets": 2297694,
-  "fetched_at": "12 Jul 2026 05:27 UTC"
+  "total_net_assets": 2331330,
+  "fetched_at": "19 Jul 2026 05:21 UTC"
 }

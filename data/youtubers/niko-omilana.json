@@ -128,6 +128,35 @@
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
     },
     {
+      "number": "16015416",
+      "name": "DONTASKQUESTIONS LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2024-10-14",
+      "balance_sheet": {
+        "date": "31 October 2025",
+        "year": 2025,
+        "prior_year": 2024,
+        "creditors": -1080,
+        "net_current_assets": 998900,
+        "net_assets": 998900,
+        "_filing_date": "2026-07-14"
+      },
+      "all_balance_sheets": [
+        {
+          "date": "31 October 2025",
+          "year": 2025,
+          "prior_year": 2024,
+          "creditors": -1080,
+          "net_current_assets": 998900,
+          "net_assets": 998900,
+          "_filing_date": "2026-07-14"
+        }
+      ],
+      "filing_date": "2026-07-14",
+      "filing_description": "accounts-with-accounts-type-unaudited-abridged"
+    },
+    {
       "number": "15630414",
       "name": "WHYAREYOUSEARCHING LTD",
       "status": "dissolved",
@@ -206,20 +235,9 @@
       "all_balance_sheets": [],
       "filing_date": null,
       "filing_description": null
-    },
-    {
-      "number": "16015416",
-      "name": "DONTASKQUESTIONS LTD",
-      "status": "active",
-      "role": "director",
-      "appointed_on": "2024-10-14",
-      "balance_sheet": null,
-      "all_balance_sheets": [],
-      "filing_date": null,
-      "filing_description": null
     }
   ],
   "total_companies": 6,
-  "total_net_assets": 2528433,
-  "fetched_at": "12 Jul 2026 05:24 UTC"
+  "total_net_assets": 3527333,
+  "fetched_at": "19 Jul 2026 05:19 UTC"
 }
