@@ -191,6 +191,31 @@ def _load_static_data(slug: str) -> Optional[dict]:
         return None
 
 
+def _fmt_date(iso_date: str) -> str:
+    try:
+        return datetime.strptime(iso_date, "%Y-%m-%d").strftime("%-d %b %Y")
+    except Exception:
+        return iso_date
+
+
+HISTORY_PATH = BASE_DIR / "data" / "history.json"
+
+
+def load_history_runs() -> list:
+    """Load the weekly-refresh changelog, newest run first, with display fields filled in."""
+    try:
+        runs = json.loads(HISTORY_PATH.read_text()) if HISTORY_PATH.exists() else []
+    except Exception:
+        runs = []
+    for run in runs:
+        run["run_at_display"] = _fmt_date(run.get("run_at", ""))
+        for c in run.get("changes", []):
+            c["filing_date_display"] = _fmt_date(c.get("filing_date", ""))
+            na, prev = c.get("net_assets"), c.get("prev_net_assets")
+            c["change"] = na - prev if na is not None and prev is not None else None
+    return list(reversed(runs))
+
+
 @app.get("/youtubers", response_class=HTMLResponse)
 async def youtubers_page(request: Request):
     group_order = []
@@ -213,6 +238,13 @@ async def youtubers_page(request: Request):
     return templates.TemplateResponse(
         "youtubers.html",
         {"request": request, "groups": ordered_groups, "total": len(YOUTUBERS)},
+    )
+
+
+@app.get("/history", response_class=HTMLResponse)
+async def history_page(request: Request):
+    return templates.TemplateResponse(
+        "history.html", {"request": request, "runs": load_history_runs()}
     )
 
 

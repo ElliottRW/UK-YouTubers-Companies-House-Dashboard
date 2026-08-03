@@ -106,6 +106,12 @@ def main():
            groups=ordered_groups, total=len(YOUTUBERS))
     print("  youtubers/index.html")
 
+    # Update history (weekly refresh changelog)
+    from app.routes import load_history_runs
+    render(env, "history.html", OUTPUT_DIR / "history" / "index.html",
+           runs=load_history_runs())
+    print("  history/index.html")
+
     # Individual YouTuber pages
     ok = missing = 0
     for y in YOUTUBERS:

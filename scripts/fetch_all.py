@@ -35,10 +35,58 @@ from app.parser import extract_balance_sheet
 from app.youtubers import YOUTUBERS
 
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "youtubers"
+HISTORY_PATH = Path(__file__).parent.parent / "data" / "history.json"
 
 
 def _slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def _diff_companies(slug: str, yt: dict, old_data: Optional[dict], new_data: dict) -> list:
+    """Compare old vs newly-fetched company data and report newly filed accounts
+    that carry a real, computable change (prior-year figures come from the
+    filing itself, not from our own fetch history)."""
+    changes = []
+    old_companies = {c["number"]: c for c in (old_data or {}).get("companies", []) if c.get("number")}
+    for c in new_data.get("companies", []):
+        num, new_fd = c.get("number"), c.get("filing_date")
+        if not num or not new_fd:
+            continue
+        old_c = old_companies.get(num)
+        if old_c and old_c.get("filing_date") == new_fd:
+            continue  # no new filing since last pull
+        bs = c.get("balance_sheet") or {}
+        net_assets, prev = bs.get("net_assets"), bs.get("net_assets_prior")
+        if net_assets is None or prev is None:
+            continue  # only record events where a real change is known
+        changes.append({
+            "slug": slug,
+            "name": yt["name"],
+            "group": yt["group"],
+            "company_name": c.get("name"),
+            "company_number": num,
+            "filing_date": new_fd,
+            "period_date": bs.get("date"),
+            "net_assets": net_assets,
+            "prev_net_assets": prev,
+        })
+    return changes
+
+
+def _record_history(changes: list):
+    if not changes:
+        return
+    history = []
+    if HISTORY_PATH.exists():
+        try:
+            history = json.loads(HISTORY_PATH.read_text())
+        except Exception:
+            history = []
+    history.append({
+        "run_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "changes": changes,
+    })
+    HISTORY_PATH.write_text(json.dumps(history, indent=2, default=str))
 
 
 class _ThrottledClient(CHClient):
@@ -199,6 +247,7 @@ async def main():
     client = _ThrottledClient(rate=1.5)
     total = len(targets)
     saved, failed = 0, 0
+    run_changes = []
 
     print(f"Fetching {total} YouTubers at ≤1.5 req/s …\n")
 
@@ -219,6 +268,14 @@ async def main():
             continue
 
         out = OUTPUT_DIR / f"{slug}.json"
+        old_data = None
+        if out.exists():
+            try:
+                old_data = json.loads(out.read_text())
+            except Exception:
+                old_data = None
+        run_changes.extend(_diff_companies(slug, yt, old_data, data))
+
         out.write_text(json.dumps(data, indent=2, default=str))
 
         elapsed = time.monotonic() - t0
@@ -226,8 +283,12 @@ async def main():
         print(f"{data['total_companies']} companies  £{net:,}  ({elapsed:.0f}s)")
         saved += 1
 
+    _record_history(run_changes)
+
     print(f"\n✓ {saved} saved   ✗ {failed} failed")
     print(f"  Output: {OUTPUT_DIR}")
+    if run_changes:
+        print(f"  {len(run_changes)} filing update(s) recorded to {HISTORY_PATH.name}")
     if saved:
         print("  Commit data/youtubers/ and deploy — no API key needed at runtime.")
 

@@ -1,0 +1,2235 @@
+[
+  {
+    "run_at": "2024-08-25",
+    "changes": [
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "BHZ OBTAIN LIMITED",
+        "company_number": "12474039",
+        "filing_date": "2024-08-23",
+        "period_date": "30 November 2023",
+        "net_assets": 4096046,
+        "prev_net_assets": 1957113
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "BHZ MEDIA LIMITED",
+        "company_number": "09325013",
+        "filing_date": "2024-08-23",
+        "period_date": "30 November 2023",
+        "net_assets": 676281,
+        "prev_net_assets": 659613
+      }
+    ]
+  },
+  {
+    "run_at": "2024-09-01",
+    "changes": [
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2SIDE LIMITED",
+        "company_number": "09866878",
+        "filing_date": "2024-08-28",
+        "period_date": "30 November 2023",
+        "net_assets": 2471035,
+        "prev_net_assets": 504591
+      }
+    ]
+  },
+  {
+    "run_at": "2024-09-08",
+    "changes": [
+      {
+        "slug": "aj-shabeel",
+        "name": "AJ Shabeel",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2024-09-05",
+        "period_date": "31 December 2023",
+        "net_assets": 2657387,
+        "prev_net_assets": 1149892
+      },
+      {
+        "slug": "chunkz",
+        "name": "Chunkz",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2024-09-05",
+        "period_date": "31 December 2023",
+        "net_assets": 2657387,
+        "prev_net_assets": 1149892
+      },
+      {
+        "slug": "kingkenny",
+        "name": "KingKenny",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2024-09-05",
+        "period_date": "31 December 2023",
+        "net_assets": 2657387,
+        "prev_net_assets": 1149892
+      },
+      {
+        "slug": "niko-omilana",
+        "name": "Niko Omilana",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2024-09-05",
+        "period_date": "31 December 2023",
+        "net_assets": 2657387,
+        "prev_net_assets": 1149892
+      },
+      {
+        "slug": "sharky",
+        "name": "Sharky",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2024-09-05",
+        "period_date": "31 December 2023",
+        "net_assets": 2657387,
+        "prev_net_assets": 1149892
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "XIX VODKA LTD",
+        "company_number": "13697651",
+        "filing_date": "2024-09-04",
+        "period_date": "31 October 2023",
+        "net_assets": 1125,
+        "prev_net_assets": 100
+      }
+    ]
+  },
+  {
+    "run_at": "2024-09-22",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK WORLDWIDE LTD",
+        "company_number": "09723449",
+        "filing_date": "2024-09-16",
+        "period_date": "31 August 2024",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      }
+    ]
+  },
+  {
+    "run_at": "2024-09-29",
+    "changes": [
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 1979397,
+        "prev_net_assets": 1987161
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": 921931,
+        "prev_net_assets": 514459
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2024-09-27",
+        "period_date": "31 December 2023",
+        "net_assets": -889322,
+        "prev_net_assets": 240
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2S PRODUCTIONS GLOBAL LTD",
+        "company_number": "13568584",
+        "filing_date": "2024-09-23",
+        "period_date": "31 December 2023",
+        "net_assets": 206574,
+        "prev_net_assets": 219315
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "HCGL GROUP LTD",
+        "company_number": "13564090",
+        "filing_date": "2024-09-23",
+        "period_date": "31 December 2023",
+        "net_assets": -3853,
+        "prev_net_assets": -2238
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2S MEDIA GLOBAL LTD",
+        "company_number": "13568263",
+        "filing_date": "2024-09-23",
+        "period_date": "31 December 2023",
+        "net_assets": -146814,
+        "prev_net_assets": 27675
+      }
+    ]
+  },
+  {
+    "run_at": "2024-10-06",
+    "changes": [
+      {
+        "slug": "calfreezy",
+        "name": "Calfreezy",
+        "group": "Sidemen Orbit",
+        "company_name": "COUPLE KEYS LIMITED",
+        "company_number": "13054703",
+        "filing_date": "2024-09-30",
+        "period_date": "31 December 2023",
+        "net_assets": 1541039,
+        "prev_net_assets": 327780
+      },
+      {
+        "slug": "theburntchip",
+        "name": "TheBurntChip",
+        "group": "Sidemen Orbit",
+        "company_name": "COUPLE KEYS LIMITED",
+        "company_number": "13054703",
+        "filing_date": "2024-09-30",
+        "period_date": "31 December 2023",
+        "net_assets": 1541039,
+        "prev_net_assets": 327780
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "CIRCULR LTD",
+        "company_number": "10517392",
+        "filing_date": "2024-09-30",
+        "period_date": "31 December 2023",
+        "net_assets": 7519,
+        "prev_net_assets": -81522
+      }
+    ]
+  },
+  {
+    "run_at": "2024-10-20",
+    "changes": [
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "ACE GRADING LIMITED",
+        "company_number": "13365699",
+        "filing_date": "2024-10-17",
+        "period_date": "30 April 2024",
+        "net_assets": -491922,
+        "prev_net_assets": -644336
+      }
+    ]
+  },
+  {
+    "run_at": "2024-10-27",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "PROTECTED SHIELD LTD",
+        "company_number": "09936967",
+        "filing_date": "2024-10-21",
+        "period_date": "31 January 2024",
+        "net_assets": 9915941,
+        "prev_net_assets": 8553424
+      }
+    ]
+  },
+  {
+    "run_at": "2024-11-03",
+    "changes": [
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "KUKI MONSTER HOLDINGS LIMITED",
+        "company_number": "13834454",
+        "filing_date": "2024-10-31",
+        "period_date": "31 January 2024",
+        "net_assets": 8471717,
+        "prev_net_assets": 5923662
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "NIGHTMARE ENTERTAINMENT LLP",
+        "company_number": "OC427618",
+        "filing_date": "2024-10-30",
+        "period_date": "31 March 2024",
+        "net_assets": 49864,
+        "prev_net_assets": 435331
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "KUKI MONSTER ENTERTAINMENT LIMITED",
+        "company_number": "09307176",
+        "filing_date": "2024-10-30",
+        "period_date": "31 January 2024",
+        "net_assets": 437447,
+        "prev_net_assets": 1254435
+      }
+    ]
+  },
+  {
+    "run_at": "2024-12-01",
+    "changes": [
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "RANDOLPHUK LTD",
+        "company_number": "11846410",
+        "filing_date": "2024-11-29",
+        "period_date": "29 February 2024",
+        "net_assets": 113693,
+        "prev_net_assets": 70532
+      },
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "COMEDYSHORTSGAMER LIMITED",
+        "company_number": "08208163",
+        "filing_date": "2024-11-28",
+        "period_date": "30 April 2024",
+        "net_assets": 203516,
+        "prev_net_assets": 295519
+      }
+    ]
+  },
+  {
+    "run_at": "2024-12-08",
+    "changes": [
+      {
+        "slug": "angry-ginge",
+        "name": "Angry Ginge",
+        "group": "The Bov Boys",
+        "company_name": "ANGRYGINGE ENTERPRISES LTD",
+        "company_number": "13908395",
+        "filing_date": "2024-12-03",
+        "period_date": "29 February 2024",
+        "net_assets": 78008,
+        "prev_net_assets": 36817
+      }
+    ]
+  },
+  {
+    "run_at": "2024-12-22",
+    "changes": [
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "IBOT HOLDINGS LIMITED",
+        "company_number": "13897883",
+        "filing_date": "2024-12-20",
+        "period_date": "31 March 2024",
+        "net_assets": 4843770,
+        "prev_net_assets": 3115338
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "IBOT ENTERTAINMENT LIMITED",
+        "company_number": "09308028",
+        "filing_date": "2024-12-20",
+        "period_date": "31 March 2024",
+        "net_assets": 358197,
+        "prev_net_assets": 764969
+      }
+    ]
+  },
+  {
+    "run_at": "2024-12-29",
+    "changes": [
+      {
+        "slug": "theo-baker",
+        "name": "Theo Baker",
+        "group": "Sidemen Orbit",
+        "company_name": "ASHWORKS MEDIA LTD",
+        "company_number": "10518815",
+        "filing_date": "2024-12-23",
+        "period_date": "31 March 2024",
+        "net_assets": 297519,
+        "prev_net_assets": 186132
+      }
+    ]
+  },
+  {
+    "run_at": "2025-01-05",
+    "changes": [
+      {
+        "slug": "cole-anderson-james",
+        "name": "Cole Anderson-James",
+        "group": "Other UK YouTubers",
+        "company_name": "KUALA LTD",
+        "company_number": "13911229",
+        "filing_date": "2024-12-30",
+        "period_date": "31 March 2024",
+        "net_assets": 553963,
+        "prev_net_assets": 346025
+      }
+    ]
+  },
+  {
+    "run_at": "2025-01-26",
+    "changes": [
+      {
+        "slug": "willne",
+        "name": "WillNE",
+        "group": "Sidemen Orbit",
+        "company_name": "NEMEDIA LIMITED",
+        "company_number": "10546302",
+        "filing_date": "2025-01-23",
+        "period_date": "31 January 2024",
+        "net_assets": 580566,
+        "prev_net_assets": 593316
+      }
+    ]
+  },
+  {
+    "run_at": "2025-02-02",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "THE THRONE HOLDINGS LIMITED",
+        "company_number": "11370648",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": 12487439,
+        "prev_net_assets": 10561892
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "KILIMANJARO YOUR MUM LTD",
+        "company_number": "09807509",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": 3869330,
+        "prev_net_assets": 3537727
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "BEERUS LIMITED",
+        "company_number": "12197262",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": 341609,
+        "prev_net_assets": 511844
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "KSIOLAJIDEBT LTD",
+        "company_number": "08031650",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": 529926,
+        "prev_net_assets": 946133
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": -142477,
+        "prev_net_assets": -142874
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": -142477,
+        "prev_net_assets": -142874
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2025-01-29",
+        "period_date": "30 April 2024",
+        "net_assets": -142477,
+        "prev_net_assets": -142874
+      }
+    ]
+  },
+  {
+    "run_at": "2025-03-02",
+    "changes": [
+      {
+        "slug": "chrismd",
+        "name": "ChrisMD",
+        "group": "Sidemen Orbit",
+        "company_name": "CMD FILMS UK LIMITED",
+        "company_number": "13427413",
+        "filing_date": "2025-02-24",
+        "period_date": "31 May 2024",
+        "net_assets": 325383,
+        "prev_net_assets": 326936
+      }
+    ]
+  },
+  {
+    "run_at": "2025-03-09",
+    "changes": [
+      {
+        "slug": "reev",
+        "name": "Reev",
+        "group": "Sidemen Orbit",
+        "company_name": "REEV PRODUCTIONS LIMITED",
+        "company_number": "10108561",
+        "filing_date": "2025-03-06",
+        "period_date": "31 March 2024",
+        "net_assets": 215046,
+        "prev_net_assets": 196800
+      }
+    ]
+  },
+  {
+    "run_at": "2025-03-16",
+    "changes": [
+      {
+        "slug": "danny-aarons",
+        "name": "Danny Aarons",
+        "group": "Sidemen Orbit",
+        "company_name": "DANNY AARONS HOLDINGS LTD",
+        "company_number": "14754549",
+        "filing_date": "2025-03-14",
+        "period_date": "30 June 2024",
+        "net_assets": 1418378,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "danny-aarons",
+        "name": "Danny Aarons",
+        "group": "Sidemen Orbit",
+        "company_name": "DANNY AARONS LTD",
+        "company_number": "14121151",
+        "filing_date": "2025-03-14",
+        "period_date": "30 June 2024",
+        "net_assets": 958200,
+        "prev_net_assets": 1462646
+      }
+    ]
+  },
+  {
+    "run_at": "2025-03-30",
+    "changes": [
+      {
+        "slug": "max-fosh",
+        "name": "Max Fosh",
+        "group": "Other UK YouTubers",
+        "company_name": "FISH WITH AN O LIMITED",
+        "company_number": "12069656",
+        "filing_date": "2025-03-26",
+        "period_date": "30 June 2024",
+        "net_assets": 690941,
+        "prev_net_assets": 253328
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "MINTERTAINMENT HOLDINGS LIMITED",
+        "company_number": "10703612",
+        "filing_date": "2025-03-24",
+        "period_date": "31 July 2024",
+        "net_assets": 14704840,
+        "prev_net_assets": 12835835
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "MINTERTAINMENT LIMITED",
+        "company_number": "09145784",
+        "filing_date": "2025-03-24",
+        "period_date": "31 July 2024",
+        "net_assets": 486095,
+        "prev_net_assets": 466034
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 7088188,
+        "prev_net_assets": -91908
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "ZRK LTD",
+        "company_number": "10254292",
+        "filing_date": "2025-03-24",
+        "period_date": "30 June 2024",
+        "net_assets": 297629,
+        "prev_net_assets": 111626
+      }
+    ]
+  },
+  {
+    "run_at": "2025-04-06",
+    "changes": [
+      {
+        "slug": "mrwho-stheboss",
+        "name": "MrWho'sTheBoss",
+        "group": "Other UK YouTubers",
+        "company_name": "BOSS GLOBAL MEDIA LIMITED",
+        "company_number": "11130068",
+        "filing_date": "2025-03-31",
+        "period_date": "31 March 2024",
+        "net_assets": 9736760,
+        "prev_net_assets": 6540215
+      }
+    ]
+  },
+  {
+    "run_at": "2025-04-20",
+    "changes": [
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "EP FITNESS LIMITED",
+        "company_number": "12441102",
+        "filing_date": "2025-04-17",
+        "period_date": "30 November 2024",
+        "net_assets": 1,
+        "prev_net_assets": 1
+      }
+    ]
+  },
+  {
+    "run_at": "2025-05-04",
+    "changes": [
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "THIRD BARN PROPERTIES LIMITED",
+        "company_number": "09732077",
+        "filing_date": "2025-05-01",
+        "period_date": "31 August 2024",
+        "net_assets": 14266246,
+        "prev_net_assets": 13313294
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "VIKKSTAR LTD.",
+        "company_number": "08194052",
+        "filing_date": "2025-05-01",
+        "period_date": "31 August 2024",
+        "net_assets": 274509,
+        "prev_net_assets": 348945
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "DRIPTRIP LIMITED",
+        "company_number": "11455128",
+        "filing_date": "2025-04-30",
+        "period_date": "31 July 2024",
+        "net_assets": 168239,
+        "prev_net_assets": 315434
+      }
+    ]
+  },
+  {
+    "run_at": "2025-07-20",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "PROTECTED SHIELD LTD",
+        "company_number": "09936967",
+        "filing_date": "2025-07-14",
+        "period_date": "31 January 2025",
+        "net_assets": 12361804,
+        "prev_net_assets": 9915941
+      }
+    ]
+  },
+  {
+    "run_at": "2025-08-03",
+    "changes": [
+      {
+        "slug": "calfreezy",
+        "name": "Calfreezy",
+        "group": "Sidemen Orbit",
+        "company_name": "CALFREEZY HOLDINGS LIMITED",
+        "company_number": "09711376",
+        "filing_date": "2025-07-30",
+        "period_date": "31 October 2024",
+        "net_assets": 423170,
+        "prev_net_assets": 544996
+      }
+    ]
+  },
+  {
+    "run_at": "2025-08-10",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "THE DREAMING WAVES HOLDINGS LIMITED",
+        "company_number": "11370590",
+        "filing_date": "2025-08-07",
+        "period_date": "30 April 2025",
+        "net_assets": 1912650,
+        "prev_net_assets": 1895528
+      },
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "COMEDYSHORTSGAMER LIMITED",
+        "company_number": "08208163",
+        "filing_date": "2025-08-07",
+        "period_date": "30 April 2025",
+        "net_assets": 90597,
+        "prev_net_assets": 203516
+      },
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK GLOBAL LTD",
+        "company_number": "08907878",
+        "filing_date": "2025-08-07",
+        "period_date": "30 April 2025",
+        "net_assets": -51943,
+        "prev_net_assets": -40329
+      }
+    ]
+  },
+  {
+    "run_at": "2025-08-17",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK US LLP",
+        "company_number": "OC435771",
+        "filing_date": "2025-08-14",
+        "period_date": "31 March 2025",
+        "net_assets": 31021,
+        "prev_net_assets": 32512
+      }
+    ]
+  },
+  {
+    "run_at": "2025-08-24",
+    "changes": [
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "21RECORDS LIMITED",
+        "company_number": "14779757",
+        "filing_date": "2025-08-21",
+        "period_date": "30 April 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "21SOUNDS LIMITED",
+        "company_number": "14779818",
+        "filing_date": "2025-08-21",
+        "period_date": "30 April 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      }
+    ]
+  },
+  {
+    "run_at": "2025-08-31",
+    "changes": [
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "BHZ OBTAIN LIMITED",
+        "company_number": "12474039",
+        "filing_date": "2025-08-29",
+        "period_date": "30 November 2024",
+        "net_assets": 5289493,
+        "prev_net_assets": 4096046
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "BHZ MEDIA LIMITED",
+        "company_number": "09325013",
+        "filing_date": "2025-08-29",
+        "period_date": "30 November 2024",
+        "net_assets": 654067,
+        "prev_net_assets": 676281
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2SIDE LIMITED",
+        "company_number": "09866878",
+        "filing_date": "2025-08-26",
+        "period_date": "30 November 2024",
+        "net_assets": 3495706,
+        "prev_net_assets": 2471035
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2S PRODUCTIONS GLOBAL LTD",
+        "company_number": "13568584",
+        "filing_date": "2025-08-26",
+        "period_date": "31 December 2024",
+        "net_assets": 126015,
+        "prev_net_assets": 206574
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "HCGL GROUP LTD",
+        "company_number": "13564090",
+        "filing_date": "2025-08-26",
+        "period_date": "31 December 2024",
+        "net_assets": -8568,
+        "prev_net_assets": -3853
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2S MEDIA GLOBAL LTD",
+        "company_number": "13568263",
+        "filing_date": "2025-08-26",
+        "period_date": "31 December 2024",
+        "net_assets": -275381,
+        "prev_net_assets": -146814
+      }
+    ]
+  },
+  {
+    "run_at": "2025-09-07",
+    "changes": [
+      {
+        "slug": "aj-shabeel",
+        "name": "AJ Shabeel",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2025-09-01",
+        "period_date": "31 December 2024",
+        "net_assets": 2528233,
+        "prev_net_assets": 2657387
+      },
+      {
+        "slug": "chunkz",
+        "name": "Chunkz",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2025-09-01",
+        "period_date": "31 December 2024",
+        "net_assets": 2528233,
+        "prev_net_assets": 2657387
+      },
+      {
+        "slug": "kingkenny",
+        "name": "KingKenny",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2025-09-01",
+        "period_date": "31 December 2024",
+        "net_assets": 2528233,
+        "prev_net_assets": 2657387
+      },
+      {
+        "slug": "niko-omilana",
+        "name": "Niko Omilana",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2025-09-01",
+        "period_date": "31 December 2024",
+        "net_assets": 2528233,
+        "prev_net_assets": 2657387
+      },
+      {
+        "slug": "sharky",
+        "name": "Sharky",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD LIMITED",
+        "company_number": "11999342",
+        "filing_date": "2025-09-01",
+        "period_date": "31 December 2024",
+        "net_assets": 2528233,
+        "prev_net_assets": 2657387
+      }
+    ]
+  },
+  {
+    "run_at": "2025-09-14",
+    "changes": [
+      {
+        "slug": "calfreezy",
+        "name": "Calfreezy",
+        "group": "Sidemen Orbit",
+        "company_name": "COUPLE KEYS LIMITED",
+        "company_number": "13054703",
+        "filing_date": "2025-09-12",
+        "period_date": "31 December 2024",
+        "net_assets": 777745,
+        "prev_net_assets": 1541039
+      },
+      {
+        "slug": "theburntchip",
+        "name": "TheBurntChip",
+        "group": "Sidemen Orbit",
+        "company_name": "COUPLE KEYS LIMITED",
+        "company_number": "13054703",
+        "filing_date": "2025-09-12",
+        "period_date": "31 December 2024",
+        "net_assets": 777745,
+        "prev_net_assets": 1541039
+      },
+      {
+        "slug": "theburntchip",
+        "name": "TheBurntChip",
+        "group": "Sidemen Orbit",
+        "company_name": "YUNG MEDIA LTD",
+        "company_number": "12253113",
+        "filing_date": "2025-09-11",
+        "period_date": "31 October 2024",
+        "net_assets": 246428,
+        "prev_net_assets": 296602
+      },
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK WORLDWIDE LTD",
+        "company_number": "09723449",
+        "filing_date": "2025-09-10",
+        "period_date": "31 August 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      }
+    ]
+  },
+  {
+    "run_at": "2025-09-28",
+    "changes": [
+      {
+        "slug": "kingkenny",
+        "name": "KingKenny",
+        "group": "Beta Squad",
+        "company_name": "KENNYTV LTD",
+        "company_number": "11126850",
+        "filing_date": "2025-09-23",
+        "period_date": "31 December 2024",
+        "net_assets": 275879,
+        "prev_net_assets": 180130
+      }
+    ]
+  },
+  {
+    "run_at": "2025-10-05",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "NIGHTMARE ENTERTAINMENT LLP",
+        "company_number": "OC427618",
+        "filing_date": "2025-10-02",
+        "period_date": "31 March 2025",
+        "net_assets": -3647,
+        "prev_net_assets": 30973
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN PRODUCTIONS LIMITED",
+        "company_number": "14361819",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1173964,
+        "prev_net_assets": -541857
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1968708,
+        "prev_net_assets": 1979397
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 63808,
+        "prev_net_assets": 921931
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2025-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": -1236758,
+        "prev_net_assets": -889322
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "CIRCULR LTD",
+        "company_number": "10517392",
+        "filing_date": "2025-09-29",
+        "period_date": "31 December 2024",
+        "net_assets": 46501,
+        "prev_net_assets": 7519
+      }
+    ]
+  },
+  {
+    "run_at": "2025-10-26",
+    "changes": [
+      {
+        "slug": "mrwho-stheboss",
+        "name": "MrWho'sTheBoss",
+        "group": "Other UK YouTubers",
+        "company_name": "BOSS GLOBAL MEDIA LIMITED",
+        "company_number": "11130068",
+        "filing_date": "2025-10-23",
+        "period_date": "31 March 2025",
+        "net_assets": 5315237,
+        "prev_net_assets": 9736760
+      }
+    ]
+  },
+  {
+    "run_at": "2025-11-02",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2025-10-31",
+        "period_date": "31 December 2024",
+        "net_assets": -158098,
+        "prev_net_assets": -142477
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2025-10-31",
+        "period_date": "31 December 2024",
+        "net_assets": -158098,
+        "prev_net_assets": -142477
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "KUKI MONSTER HOLDINGS LIMITED",
+        "company_number": "13834454",
+        "filing_date": "2025-10-31",
+        "period_date": "31 January 2025",
+        "net_assets": 10419424,
+        "prev_net_assets": 8471717
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2025-10-31",
+        "period_date": "31 December 2024",
+        "net_assets": -158098,
+        "prev_net_assets": -142477
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "KUKI MONSTER ENTERTAINMENT LIMITED",
+        "company_number": "09307176",
+        "filing_date": "2025-10-30",
+        "period_date": "31 January 2025",
+        "net_assets": 262340,
+        "prev_net_assets": 437447
+      },
+      {
+        "slug": "callux",
+        "name": "Callux",
+        "group": "Sidemen Orbit",
+        "company_name": "NOTWOWAYS LIMITED",
+        "company_number": "12512852",
+        "filing_date": "2025-10-28",
+        "period_date": "31 March 2025",
+        "net_assets": 1320775,
+        "prev_net_assets": 2145755
+      },
+      {
+        "slug": "callux",
+        "name": "Callux",
+        "group": "Sidemen Orbit",
+        "company_name": "AFTER PARTY STUDIOS LIMITED",
+        "company_number": "10451833",
+        "filing_date": "2025-10-28",
+        "period_date": "31 March 2025",
+        "net_assets": 471363,
+        "prev_net_assets": 453094
+      }
+    ]
+  },
+  {
+    "run_at": "2025-11-30",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SOLARIS UK HOLDINGS LIMITED",
+        "company_number": "14657608",
+        "filing_date": "2025-11-28",
+        "period_date": "28 February 2025",
+        "net_assets": 186042000,
+        "prev_net_assets": 185387000
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "WHAT'S GOOD PODCAST LTD",
+        "company_number": "12482495",
+        "filing_date": "2025-11-26",
+        "period_date": "28 February 2025",
+        "net_assets": -626,
+        "prev_net_assets": 20490
+      },
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "WHAT'S GOOD PODCAST LTD",
+        "company_number": "12482495",
+        "filing_date": "2025-11-26",
+        "period_date": "28 February 2025",
+        "net_assets": -626,
+        "prev_net_assets": 20490
+      },
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "SECRET RARE LTD",
+        "company_number": "13068398",
+        "filing_date": "2025-11-25",
+        "period_date": "28 February 2025",
+        "net_assets": 561251,
+        "prev_net_assets": 645064
+      },
+      {
+        "slug": "angry-ginge",
+        "name": "Angry Ginge",
+        "group": "The Bov Boys",
+        "company_name": "ANGRYGINGE ENTERPRISES LTD",
+        "company_number": "13908395",
+        "filing_date": "2025-11-24",
+        "period_date": "28 February 2025",
+        "net_assets": 837369,
+        "prev_net_assets": 78008
+      },
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "RANDOLPHUK LTD",
+        "company_number": "11846410",
+        "filing_date": "2025-11-24",
+        "period_date": "28 February 2025",
+        "net_assets": 213024,
+        "prev_net_assets": 113693
+      }
+    ]
+  },
+  {
+    "run_at": "2025-12-14",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "KILIMANJARO YOUR MUM LTD",
+        "company_number": "09807509",
+        "filing_date": "2025-12-09",
+        "period_date": "30 April 2025",
+        "net_assets": 4165141,
+        "prev_net_assets": 3869330
+      }
+    ]
+  },
+  {
+    "run_at": "2025-12-21",
+    "changes": [
+      {
+        "slug": "chrismd",
+        "name": "ChrisMD",
+        "group": "Sidemen Orbit",
+        "company_name": "CMD FILMS UK LIMITED",
+        "company_number": "13427413",
+        "filing_date": "2025-12-17",
+        "period_date": "31 May 2025",
+        "net_assets": 405948,
+        "prev_net_assets": 325383
+      },
+      {
+        "slug": "theo-baker",
+        "name": "Theo Baker",
+        "group": "Sidemen Orbit",
+        "company_name": "ASHWORKS MEDIA LTD",
+        "company_number": "10518815",
+        "filing_date": "2025-12-17",
+        "period_date": "31 March 2025",
+        "net_assets": 302691,
+        "prev_net_assets": 297519
+      }
+    ]
+  },
+  {
+    "run_at": "2026-01-04",
+    "changes": [
+      {
+        "slug": "jack-joseph",
+        "name": "Jack Joseph",
+        "group": "Other UK YouTubers",
+        "company_name": "JACK JOSEPH LIMITED",
+        "company_number": "13900765",
+        "filing_date": "2025-12-31",
+        "period_date": "31 March 2025",
+        "net_assets": 617397,
+        "prev_net_assets": 553181
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "IBOT HOLDINGS LIMITED",
+        "company_number": "13897883",
+        "filing_date": "2025-12-31",
+        "period_date": "31 March 2025",
+        "net_assets": 6813954,
+        "prev_net_assets": 4843770
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "IBOT ENTERTAINMENT LIMITED",
+        "company_number": "09308028",
+        "filing_date": "2025-12-31",
+        "period_date": "31 March 2025",
+        "net_assets": 241104,
+        "prev_net_assets": 358197
+      },
+      {
+        "slug": "callux",
+        "name": "Callux",
+        "group": "Sidemen Orbit",
+        "company_name": "CLX ENTERTAINMENT LIMITED",
+        "company_number": "09519651",
+        "filing_date": "2025-12-29",
+        "period_date": "31 March 2025",
+        "net_assets": 199761,
+        "prev_net_assets": 300580
+      },
+      {
+        "slug": "reev",
+        "name": "Reev",
+        "group": "Sidemen Orbit",
+        "company_name": "REEV PRODUCTIONS LIMITED",
+        "company_number": "10108561",
+        "filing_date": "2025-12-29",
+        "period_date": "31 March 2025",
+        "net_assets": 220863,
+        "prev_net_assets": 215046
+      }
+    ]
+  },
+  {
+    "run_at": "2026-01-11",
+    "changes": [
+      {
+        "slug": "willne",
+        "name": "WillNE",
+        "group": "Sidemen Orbit",
+        "company_name": "NEMEDIA LIMITED",
+        "company_number": "10546302",
+        "filing_date": "2026-01-08",
+        "period_date": "31 January 2025",
+        "net_assets": 632763,
+        "prev_net_assets": 580566
+      }
+    ]
+  },
+  {
+    "run_at": "2026-01-25",
+    "changes": [
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "ACE GRADING LIMITED",
+        "company_number": "13365699",
+        "filing_date": "2026-01-21",
+        "period_date": "30 April 2025",
+        "net_assets": -602459,
+        "prev_net_assets": -491922
+      }
+    ]
+  },
+  {
+    "run_at": "2026-02-01",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "THE THRONE HOLDINGS LIMITED",
+        "company_number": "11370648",
+        "filing_date": "2026-01-27",
+        "period_date": "30 April 2025",
+        "net_assets": 15160095,
+        "prev_net_assets": 12487439
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "BEERUS LIMITED",
+        "company_number": "12197262",
+        "filing_date": "2026-01-27",
+        "period_date": "30 April 2025",
+        "net_assets": 632868,
+        "prev_net_assets": 341609
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "KSIOLAJIDEBT LTD",
+        "company_number": "08031650",
+        "filing_date": "2026-01-27",
+        "period_date": "30 April 2025",
+        "net_assets": 411785,
+        "prev_net_assets": 529926
+      }
+    ]
+  },
+  {
+    "run_at": "2026-02-22",
+    "changes": [
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN ENTERTAINMENT LIMITED",
+        "company_number": "12349593",
+        "filing_date": "2026-02-17",
+        "period_date": "30 June 2025",
+        "net_assets": 2055147,
+        "prev_net_assets": 7088188
+      }
+    ]
+  },
+  {
+    "run_at": "2026-03-01",
+    "changes": [
+      {
+        "slug": "george-clarke",
+        "name": "George Clarke",
+        "group": "Friends from Work",
+        "company_name": "THE USELESS STUDIOS LIMITED",
+        "company_number": "14629939",
+        "filing_date": "2026-02-24",
+        "period_date": "28 February 2025",
+        "net_assets": 64821,
+        "prev_net_assets": 59198
+      }
+    ]
+  },
+  {
+    "run_at": "2026-03-08",
+    "changes": [
+      {
+        "slug": "cole-anderson-james",
+        "name": "Cole Anderson-James",
+        "group": "Other UK YouTubers",
+        "company_name": "KUALA LTD",
+        "company_number": "13911229",
+        "filing_date": "2026-03-03",
+        "period_date": "31 March 2025",
+        "net_assets": 833708,
+        "prev_net_assets": 553963
+      }
+    ]
+  },
+  {
+    "run_at": "2026-03-15",
+    "changes": [
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "ZRK LTD",
+        "company_number": "10254292",
+        "filing_date": "2026-03-12",
+        "period_date": "30 June 2025",
+        "net_assets": -412705,
+        "prev_net_assets": -297629
+      },
+      {
+        "slug": "danny-aarons",
+        "name": "Danny Aarons",
+        "group": "Sidemen Orbit",
+        "company_name": "DANNY AARONS HOLDINGS LTD",
+        "company_number": "14754549",
+        "filing_date": "2026-03-11",
+        "period_date": "30 June 2025",
+        "net_assets": 1820999,
+        "prev_net_assets": 1418378
+      },
+      {
+        "slug": "danny-aarons",
+        "name": "Danny Aarons",
+        "group": "Sidemen Orbit",
+        "company_name": "DANNY AARONS LTD",
+        "company_number": "14121151",
+        "filing_date": "2026-03-11",
+        "period_date": "30 June 2025",
+        "net_assets": 752253,
+        "prev_net_assets": 958200
+      }
+    ]
+  },
+  {
+    "run_at": "2026-03-29",
+    "changes": [
+      {
+        "slug": "cole-anderson-james",
+        "name": "Cole Anderson-James",
+        "group": "Other UK YouTubers",
+        "company_name": "CAJ INVEST LTD",
+        "company_number": "14924240",
+        "filing_date": "2026-03-25",
+        "period_date": "30 June 2025",
+        "net_assets": 16406,
+        "prev_net_assets": -1972
+      }
+    ]
+  },
+  {
+    "run_at": "2026-04-05",
+    "changes": [
+      {
+        "slug": "mrwho-stheboss",
+        "name": "MrWho'sTheBoss",
+        "group": "Other UK YouTubers",
+        "company_name": "BOSS GLOBAL PROPERTIES LIMITED",
+        "company_number": "11239611",
+        "filing_date": "2026-03-31",
+        "period_date": "31 March 2025",
+        "net_assets": 11081,
+        "prev_net_assets": 261087
+      }
+    ]
+  },
+  {
+    "run_at": "2026-04-12",
+    "changes": [
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "123 PRODUCTIONS LIMITED",
+        "company_number": "15063610",
+        "filing_date": "2026-04-09",
+        "period_date": "31 August 2025",
+        "net_assets": -138351,
+        "prev_net_assets": -82014
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "THIRD BARN PROPERTIES LIMITED",
+        "company_number": "09732077",
+        "filing_date": "2026-04-08",
+        "period_date": "31 August 2025",
+        "net_assets": 16138921,
+        "prev_net_assets": 14266246
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "VIKKSTAR LTD.",
+        "company_number": "08194052",
+        "filing_date": "2026-04-08",
+        "period_date": "31 August 2025",
+        "net_assets": 354490,
+        "prev_net_assets": 274509
+      }
+    ]
+  },
+  {
+    "run_at": "2026-04-26",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK US LLP",
+        "company_number": "OC435771",
+        "filing_date": "2026-04-23",
+        "period_date": "31 March 2026",
+        "net_assets": 31919,
+        "prev_net_assets": 31021
+      }
+    ]
+  },
+  {
+    "run_at": "2026-05-03",
+    "changes": [
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "MINTERTAINMENT HOLDINGS LIMITED",
+        "company_number": "10703612",
+        "filing_date": "2026-04-30",
+        "period_date": "31 July 2025",
+        "net_assets": 17565657,
+        "prev_net_assets": 14704840
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "MINTERTAINMENT LIMITED",
+        "company_number": "09145784",
+        "filing_date": "2026-04-30",
+        "period_date": "31 July 2025",
+        "net_assets": 504694,
+        "prev_net_assets": 486095
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "DRIPTRIP LIMITED",
+        "company_number": "11455128",
+        "filing_date": "2026-04-29",
+        "period_date": "31 July 2025",
+        "net_assets": -20078,
+        "prev_net_assets": 168239
+      }
+    ]
+  },
+  {
+    "run_at": "2026-05-24",
+    "changes": [
+      {
+        "slug": "callux",
+        "name": "Callux",
+        "group": "Sidemen Orbit",
+        "company_name": "AFTER PARTY STUDIOS LIMITED",
+        "company_number": "10451833",
+        "filing_date": "2026-05-18",
+        "period_date": "31 December 2025",
+        "net_assets": 415972,
+        "prev_net_assets": 471363
+      }
+    ]
+  },
+  {
+    "run_at": "2026-06-14",
+    "changes": [
+      {
+        "slug": "callux",
+        "name": "Callux",
+        "group": "Sidemen Orbit",
+        "company_name": "NOTWOWAYS LIMITED",
+        "company_number": "12512852",
+        "filing_date": "2026-06-08",
+        "period_date": "31 March 2026",
+        "net_assets": 823196,
+        "prev_net_assets": 1320775
+      },
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "ACE GRADING LIMITED",
+        "company_number": "13365699",
+        "filing_date": "2026-06-08",
+        "period_date": "30 April 2026",
+        "net_assets": 2369131,
+        "prev_net_assets": -602459
+      }
+    ]
+  },
+  {
+    "run_at": "2026-07-05",
+    "changes": [
+      {
+        "slug": "max-fosh",
+        "name": "Max Fosh",
+        "group": "Other UK YouTubers",
+        "company_name": "FISH WITH AN O LIMITED",
+        "company_number": "12069656",
+        "filing_date": "2026-06-29",
+        "period_date": "30 June 2025",
+        "net_assets": 1021409,
+        "prev_net_assets": 690941
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-02",
+    "changes": [
+      {
+        "slug": "callux",
+        "name": "Callux",
+        "group": "Sidemen Orbit",
+        "company_name": "CLX ENTERTAINMENT LIMITED",
+        "company_number": "09519651",
+        "filing_date": "2026-07-27",
+        "period_date": "31 March 2026",
+        "net_assets": 202036,
+        "prev_net_assets": 199761
+      }
+    ]
+  }
+]
