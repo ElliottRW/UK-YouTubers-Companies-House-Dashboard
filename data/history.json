@@ -2231,5 +2231,65 @@
         "prev_net_assets": 199761
       }
     ]
+  },
+  {
+    "run_at": "2026-08-09",
+    "changes": [
+      {
+        "slug": "chunkz",
+        "name": "Chunkz",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD HOLDINGS LIMITED",
+        "company_number": "15341616",
+        "filing_date": "2026-08-06",
+        "period_date": "31 December 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "sharky",
+        "name": "Sharky",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD HOLDINGS LIMITED",
+        "company_number": "15341616",
+        "filing_date": "2026-08-06",
+        "period_date": "31 December 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "niko-omilana",
+        "name": "Niko Omilana",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD HOLDINGS LIMITED",
+        "company_number": "15341616",
+        "filing_date": "2026-08-06",
+        "period_date": "31 December 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "aj-shabeel",
+        "name": "AJ Shabeel",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD HOLDINGS LIMITED",
+        "company_number": "15341616",
+        "filing_date": "2026-08-06",
+        "period_date": "31 December 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "kingkenny",
+        "name": "KingKenny",
+        "group": "Beta Squad",
+        "company_name": "BETA SQUAD HOLDINGS LIMITED",
+        "company_number": "15341616",
+        "filing_date": "2026-08-06",
+        "period_date": "31 December 2025",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      }
+    ]
   }
 ]
