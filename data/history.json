@@ -2291,5 +2291,21 @@
         "prev_net_assets": 100
       }
     ]
+  },
+  {
+    "run_at": "2026-08-16",
+    "changes": [
+      {
+        "slug": "calfreezy",
+        "name": "Calfreezy",
+        "group": "Sidemen Orbit",
+        "company_name": "CALFREEZY HOLDINGS LIMITED",
+        "company_number": "09711376",
+        "filing_date": "2026-08-13",
+        "period_date": "31 October 2025",
+        "net_assets": 4019080,
+        "prev_net_assets": 423170
+      }
+    ]
   }
 ]
