@@ -2307,5 +2307,21 @@
         "prev_net_assets": 423170
       }
     ]
+  },
+  {
+    "run_at": "2026-08-23",
+    "changes": [
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "PROTECTED SHIELD LTD",
+        "company_number": "09936967",
+        "filing_date": "2026-08-18",
+        "period_date": "31 January 2026",
+        "net_assets": 13648653,
+        "prev_net_assets": 12361804
+      }
+    ]
   }
 ]

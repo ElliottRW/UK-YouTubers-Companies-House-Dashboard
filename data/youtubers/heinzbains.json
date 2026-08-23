@@ -3,26 +3,26 @@
   "name": "Heinzbains",
   "real_name": "Ryan McCaul",
   "group": "The Bov Boys",
-  "officer_name": "MCCAUL, Ryan",
-  "officer_id": "rQ5sMbKjXEeP4Ly_yahzAlGdCsA",
+  "officer_name": "MCCAUL, Ryan Neil",
+  "officer_id": "eHixc3KosG9pUC6n-lFLv-y55xM",
   "companies": [
     {
-      "number": "16628776",
-      "name": "BOV BOYS ENTERTAINMENT LTD",
+      "number": "16593860",
+      "name": "HEINZ BAINES LIMITED",
       "status": "active",
       "role": "director",
-      "appointed_on": "2025-08-05",
+      "appointed_on": "2026-08-18",
       "balance_sheet": null,
       "all_balance_sheets": [],
       "filing_date": null,
       "filing_description": null
     },
     {
-      "number": "16593860",
-      "name": "HEINZ BAINES LIMITED",
+      "number": "16628776",
+      "name": "BOV BOYS ENTERTAINMENT LTD",
       "status": "active",
       "role": "director",
-      "appointed_on": "2025-07-20",
+      "appointed_on": "2026-08-18",
       "balance_sheet": null,
       "all_balance_sheets": [],
       "filing_date": null,
@@ -31,5 +31,5 @@
   ],
   "total_companies": 2,
   "total_net_assets": 0,
-  "fetched_at": "16 Aug 2026 03:01 UTC"
+  "fetched_at": "23 Aug 2026 03:03 UTC"
 }
