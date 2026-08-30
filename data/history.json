@@ -2323,5 +2323,65 @@
         "prev_net_assets": 12361804
       }
     ]
+  },
+  {
+    "run_at": "2026-08-30",
+    "changes": [
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2SIDE LIMITED",
+        "company_number": "09866878",
+        "filing_date": "2026-08-25",
+        "period_date": "30 November 2025",
+        "net_assets": 4976423,
+        "prev_net_assets": 3495706
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2S MEDIA GLOBAL LTD",
+        "company_number": "13568263",
+        "filing_date": "2026-08-25",
+        "period_date": "31 December 2025",
+        "net_assets": -257690,
+        "prev_net_assets": -275381
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "BHZ OBTAIN LIMITED",
+        "company_number": "12474039",
+        "filing_date": "2026-08-28",
+        "period_date": "30 November 2025",
+        "net_assets": 9061789,
+        "prev_net_assets": 5289493
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "BHZ MEDIA LIMITED",
+        "company_number": "09325013",
+        "filing_date": "2026-08-28",
+        "period_date": "30 November 2025",
+        "net_assets": 394943,
+        "prev_net_assets": 654067
+      },
+      {
+        "slug": "chunkz",
+        "name": "Chunkz",
+        "group": "Beta Squad",
+        "company_name": "CLEAN HEARTZ LTD",
+        "company_number": "15263891",
+        "filing_date": "2026-08-27",
+        "period_date": "30 November 2025",
+        "net_assets": 61000,
+        "prev_net_assets": 22656
+      }
+    ]
   }
 ]
