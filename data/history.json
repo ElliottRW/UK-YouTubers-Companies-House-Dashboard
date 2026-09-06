@@ -2383,5 +2383,43 @@
         "prev_net_assets": 22656
       }
     ]
+  },
+  {
+    "run_at": "2026-09-06",
+    "changes": [
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "W2S PRODUCTIONS GLOBAL LTD",
+        "company_number": "13568584",
+        "filing_date": "2026-09-01",
+        "period_date": "31 December 2025",
+        "net_assets": 185300,
+        "prev_net_assets": 126015
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "HCGL GROUP LTD",
+        "company_number": "13564090",
+        "filing_date": "2026-09-01",
+        "period_date": "31 December 2025",
+        "net_assets": -13184,
+        "prev_net_assets": -8568
+      },
+      {
+        "slug": "kingkenny",
+        "name": "KingKenny",
+        "group": "Beta Squad",
+        "company_name": "KENNYTV LTD",
+        "company_number": "11126850",
+        "filing_date": "2026-09-03",
+        "period_date": "31 December 2025",
+        "net_assets": 391169,
+        "prev_net_assets": 275879
+      }
+    ]
   }
 ]
