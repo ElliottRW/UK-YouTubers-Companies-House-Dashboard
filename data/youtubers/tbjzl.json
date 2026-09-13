@@ -669,16 +669,26 @@
       "role": "director",
       "appointed_on": "2023-04-04",
       "balance_sheet": {
-        "date": "30 April 2025",
-        "year": 2025,
-        "prior_year": 2024,
+        "date": "30 April 2026",
+        "year": 2026,
+        "prior_year": 2025,
         "net_assets": 100,
         "total_equity": 100,
         "net_assets_prior": 100,
         "total_equity_prior": 100,
-        "_filing_date": "2025-08-21"
+        "_filing_date": "2026-09-09"
       },
       "all_balance_sheets": [
+        {
+          "date": "30 April 2026",
+          "year": 2026,
+          "prior_year": 2025,
+          "net_assets": 100,
+          "total_equity": 100,
+          "net_assets_prior": 100,
+          "total_equity_prior": 100,
+          "_filing_date": "2026-09-09"
+        },
         {
           "date": "30 April 2025",
           "year": 2025,
@@ -697,7 +707,7 @@
           "_filing_date": "2024-12-22"
         }
       ],
-      "filing_date": "2025-08-21",
+      "filing_date": "2026-09-09",
       "filing_description": "accounts-with-accounts-type-dormant"
     },
     {
@@ -707,16 +717,26 @@
       "role": "director",
       "appointed_on": "2023-04-04",
       "balance_sheet": {
-        "date": "30 April 2025",
-        "year": 2025,
-        "prior_year": 2024,
+        "date": "30 April 2026",
+        "year": 2026,
+        "prior_year": 2025,
         "net_assets": 100,
         "total_equity": 100,
         "net_assets_prior": 100,
         "total_equity_prior": 100,
-        "_filing_date": "2025-08-21"
+        "_filing_date": "2026-09-09"
       },
       "all_balance_sheets": [
+        {
+          "date": "30 April 2026",
+          "year": 2026,
+          "prior_year": 2025,
+          "net_assets": 100,
+          "total_equity": 100,
+          "net_assets_prior": 100,
+          "total_equity_prior": 100,
+          "_filing_date": "2026-09-09"
+        },
         {
           "date": "30 April 2025",
           "year": 2025,
@@ -735,7 +755,7 @@
           "_filing_date": "2024-12-22"
         }
       ],
-      "filing_date": "2025-08-21",
+      "filing_date": "2026-09-09",
       "filing_description": "accounts-with-accounts-type-dormant"
     },
     {
@@ -958,5 +978,5 @@
   ],
   "total_companies": 10,
   "total_net_assets": 9886085,
-  "fetched_at": "06 Sep 2026 06:46 UTC"
+  "fetched_at": "13 Sep 2026 07:04 UTC"
 }

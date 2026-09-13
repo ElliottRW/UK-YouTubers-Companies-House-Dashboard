@@ -2421,5 +2421,54 @@
         "prev_net_assets": 275879
       }
     ]
+  },
+  {
+    "run_at": "2026-09-13",
+    "changes": [
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "21RECORDS LIMITED",
+        "company_number": "14779757",
+        "filing_date": "2026-09-09",
+        "period_date": "30 April 2026",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "21SOUNDS LIMITED",
+        "company_number": "14779818",
+        "filing_date": "2026-09-09",
+        "period_date": "30 April 2026",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK WORLDWIDE LTD",
+        "company_number": "09723449",
+        "filing_date": "2026-09-09",
+        "period_date": "31 August 2026",
+        "net_assets": 100,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "deji",
+        "name": "Deji",
+        "group": "Sidemen Orbit",
+        "company_name": "TANK GLOBAL LTD",
+        "company_number": "08907878",
+        "filing_date": "2026-09-09",
+        "period_date": "30 April 2026",
+        "net_assets": -51943,
+        "prev_net_assets": -51943
+      }
+    ]
   }
 ]
