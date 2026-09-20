@@ -120,22 +120,38 @@
       "role": "director",
       "appointed_on": "2020-12-07",
       "balance_sheet": {
-        "date": "28 February 2025",
-        "year": 2025,
-        "prior_year": 2024,
+        "date": "28 February 2026",
+        "year": 2026,
+        "prior_year": 2025,
         "fixed_assets": 280,
-        "creditors": -95104,
-        "net_current_assets": 560971,
-        "net_assets": 561251,
-        "total_equity": 561251,
+        "creditors": -88503,
+        "net_current_assets": 933941,
+        "net_assets": 934221,
+        "total_equity": 934221,
         "fixed_assets_prior": 280,
-        "creditors_prior": -39776,
-        "net_current_assets_prior": 644784,
-        "net_assets_prior": 645064,
-        "total_equity_prior": 645064,
-        "_filing_date": "2025-11-25"
+        "creditors_prior": -95104,
+        "net_current_assets_prior": 560971,
+        "net_assets_prior": 561251,
+        "total_equity_prior": 561251,
+        "_filing_date": "2026-09-18"
       },
       "all_balance_sheets": [
+        {
+          "date": "28 February 2026",
+          "year": 2026,
+          "prior_year": 2025,
+          "fixed_assets": 280,
+          "creditors": -88503,
+          "net_current_assets": 933941,
+          "net_assets": 934221,
+          "total_equity": 934221,
+          "fixed_assets_prior": 280,
+          "creditors_prior": -95104,
+          "net_current_assets_prior": 560971,
+          "net_assets_prior": 561251,
+          "total_equity_prior": 561251,
+          "_filing_date": "2026-09-18"
+        },
         {
           "date": "28 February 2025",
           "year": 2025,
@@ -189,7 +205,7 @@
           "_filing_date": "2022-03-23"
         }
       ],
-      "filing_date": "2025-11-25",
+      "filing_date": "2026-09-18",
       "filing_description": "accounts-with-accounts-type-micro-entity"
     },
     {
@@ -199,24 +215,42 @@
       "role": "director",
       "appointed_on": "2019-02-25",
       "balance_sheet": {
-        "date": "28 February 2025",
-        "year": 2025,
-        "prior_year": 2024,
-        "fixed_assets": 55126,
-        "debtors": 73900,
-        "creditors": -190914,
-        "net_current_assets": 157898,
-        "net_assets": 213024,
-        "total_equity": 200024,
-        "fixed_assets_prior": 50328,
-        "debtors_prior": 31684,
-        "creditors_prior": -251010,
-        "net_current_assets_prior": 63365,
-        "net_assets_prior": 113693,
-        "total_equity_prior": 101993,
-        "_filing_date": "2025-11-24"
+        "date": "28 February 2026",
+        "year": 2026,
+        "prior_year": 2025,
+        "fixed_assets": 68833,
+        "debtors": 271284,
+        "creditors": -763759,
+        "net_current_assets": 154731,
+        "net_assets": 223564,
+        "total_equity": 207264,
+        "fixed_assets_prior": 55126,
+        "debtors_prior": 73900,
+        "creditors_prior": -190914,
+        "net_current_assets_prior": 157898,
+        "net_assets_prior": 213024,
+        "total_equity_prior": 200024,
+        "_filing_date": "2026-09-18"
       },
       "all_balance_sheets": [
+        {
+          "date": "28 February 2026",
+          "year": 2026,
+          "prior_year": 2025,
+          "fixed_assets": 68833,
+          "debtors": 271284,
+          "creditors": -763759,
+          "net_current_assets": 154731,
+          "net_assets": 223564,
+          "total_equity": 207264,
+          "fixed_assets_prior": 55126,
+          "debtors_prior": 73900,
+          "creditors_prior": -190914,
+          "net_current_assets_prior": 157898,
+          "net_assets_prior": 213024,
+          "total_equity_prior": 200024,
+          "_filing_date": "2026-09-18"
+        },
         {
           "date": "28 February 2025",
           "year": 2025,
@@ -318,7 +352,7 @@
           "_filing_date": "2020-11-18"
         }
       ],
-      "filing_date": "2025-11-24",
+      "filing_date": "2026-09-18",
       "filing_description": "accounts-with-accounts-type-total-exemption-full"
     },
     {
@@ -420,6 +454,6 @@
     }
   ],
   "total_companies": 6,
-  "total_net_assets": 3142780,
-  "fetched_at": "13 Sep 2026 07:07 UTC"
+  "total_net_assets": 3526290,
+  "fetched_at": "20 Sep 2026 07:24 UTC"
 }

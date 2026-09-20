@@ -2470,5 +2470,32 @@
         "prev_net_assets": -51943
       }
     ]
+  },
+  {
+    "run_at": "2026-09-20",
+    "changes": [
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "SECRET RARE LTD",
+        "company_number": "13068398",
+        "filing_date": "2026-09-18",
+        "period_date": "28 February 2026",
+        "net_assets": 934221,
+        "prev_net_assets": 561251
+      },
+      {
+        "slug": "randolph",
+        "name": "Randolph",
+        "group": "Sidemen Orbit",
+        "company_name": "RANDOLPHUK LTD",
+        "company_number": "11846410",
+        "filing_date": "2026-09-18",
+        "period_date": "28 February 2026",
+        "net_assets": 223564,
+        "prev_net_assets": 213024
+      }
+    ]
   }
 ]
