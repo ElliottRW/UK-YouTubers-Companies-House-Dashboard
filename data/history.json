@@ -2497,5 +2497,120 @@
         "prev_net_assets": 213024
       }
     ]
+  },
+  {
+    "run_at": "2026-09-27",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -130654,
+        "prev_net_assets": -158098
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -130654,
+        "prev_net_assets": -158098
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "NEMEDIS LIMITED",
+        "company_number": "10139490",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -130654,
+        "prev_net_assets": -158098
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN CLOTHING LIMITED",
+        "company_number": "09369821",
+        "filing_date": "2026-09-22",
+        "period_date": "31 December 2025",
+        "net_assets": -519711,
+        "prev_net_assets": 63808
+      }
+    ]
   }
 ]
