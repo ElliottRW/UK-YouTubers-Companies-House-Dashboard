@@ -2612,5 +2612,208 @@
         "prev_net_assets": 63808
       }
     ]
+  },
+  {
+    "run_at": "2026-10-04",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "miniminter",
+        "name": "Miniminter",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "tbjzl",
+        "name": "TBJZL",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "w2s",
+        "name": "W2S",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN PRODUCTIONS LIMITED",
+        "company_number": "14361819",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2024",
+        "net_assets": 1173964,
+        "prev_net_assets": -541857
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "CIRCULR LTD",
+        "company_number": "10517392",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 16423,
+        "prev_net_assets": 46501
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "XIX VODKA LTD",
+        "company_number": "13697651",
+        "filing_date": "2026-10-01",
+        "period_date": "31 October 2023",
+        "net_assets": 1125,
+        "prev_net_assets": 100
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN PROJECT 1 LIMITED",
+        "company_number": "15227103",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -306400,
+        "prev_net_assets": 3466
+      },
+      {
+        "slug": "vikkstar123",
+        "name": "Vikkstar123",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN HOLDINGS LIMITED",
+        "company_number": "12129201",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": 1957314,
+        "prev_net_assets": 1968708
+      },
+      {
+        "slug": "behzinga",
+        "name": "Behzinga",
+        "group": "The Sidemen",
+        "company_name": "SIDEMEN VENTURES LIMITED",
+        "company_number": "13468234",
+        "filing_date": "2026-09-30",
+        "period_date": "31 December 2025",
+        "net_assets": -1107978,
+        "prev_net_assets": -1236758
+      }
+    ]
   }
 ]
