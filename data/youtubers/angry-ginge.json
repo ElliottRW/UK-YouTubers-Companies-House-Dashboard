@@ -3,7 +3,7 @@
   "name": "Angry Ginge",
   "real_name": "Morgan Sam Lee Burtwistle",
   "group": "The Bov Boys",
-  "officer_name": "BURTWISTLE, Morgan",
+  "officer_name": "BURTWISTLE, Morgan Sam  Lee",
   "officer_id": "HhlFOGo6sOYLMyUggdNMnX-LIos",
   "companies": [
     {
@@ -125,6 +125,17 @@
       "filing_description": "accounts-with-accounts-type-micro-entity"
     },
     {
+      "number": "17416551",
+      "name": "LW TEXTILES LTD",
+      "status": "active",
+      "role": "director",
+      "appointed_on": "2026-10-15",
+      "balance_sheet": null,
+      "all_balance_sheets": [],
+      "filing_date": null,
+      "filing_description": null
+    },
+    {
       "number": "16628776",
       "name": "BOV BOYS ENTERTAINMENT LTD",
       "status": "active",
@@ -147,7 +158,7 @@
       "filing_description": null
     }
   ],
-  "total_companies": 5,
+  "total_companies": 6,
   "total_net_assets": 2331330,
-  "fetched_at": "11 Oct 2026 08:15 UTC"
+  "fetched_at": "18 Oct 2026 06:57 UTC"
 }

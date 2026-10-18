@@ -239,11 +239,11 @@
       "appointed_on": "2023-10-23",
       "balance_sheet": null,
       "all_balance_sheets": [],
-      "filing_date": "2026-07-29",
-      "filing_description": "accounts-with-accounts-type-dormant"
+      "filing_date": "2026-10-15",
+      "filing_description": "change-account-reference-date-company-previous-shortened"
     }
   ],
   "total_companies": 4,
   "total_net_assets": 2600896,
-  "fetched_at": "11 Oct 2026 08:11 UTC"
+  "fetched_at": "18 Oct 2026 06:54 UTC"
 }
