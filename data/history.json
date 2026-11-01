@@ -2815,5 +2815,43 @@
         "prev_net_assets": -1236758
       }
     ]
+  },
+  {
+    "run_at": "2026-11-01",
+    "changes": [
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "KUKI MONSTER HOLDINGS LIMITED",
+        "company_number": "13834454",
+        "filing_date": "2026-10-30",
+        "period_date": "31 January 2026",
+        "net_assets": 12149563,
+        "prev_net_assets": 10419424
+      },
+      {
+        "slug": "zerkaa",
+        "name": "Zerkaa",
+        "group": "The Sidemen",
+        "company_name": "KUKI MONSTER ENTERTAINMENT LIMITED",
+        "company_number": "09307176",
+        "filing_date": "2026-10-30",
+        "period_date": "31 January 2026",
+        "net_assets": 140560,
+        "prev_net_assets": 262340
+      },
+      {
+        "slug": "theburntchip",
+        "name": "TheBurntChip",
+        "group": "Sidemen Orbit",
+        "company_name": "YUNG MEDIA LTD",
+        "company_number": "12253113",
+        "filing_date": "2026-10-30",
+        "period_date": "31 October 2025",
+        "net_assets": 2564359,
+        "prev_net_assets": 246428
+      }
+    ]
   }
 ]
