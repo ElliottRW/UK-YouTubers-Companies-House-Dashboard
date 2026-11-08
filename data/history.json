@@ -2853,5 +2853,32 @@
         "prev_net_assets": 246428
       }
     ]
+  },
+  {
+    "run_at": "2026-11-08",
+    "changes": [
+      {
+        "slug": "ksi",
+        "name": "KSI",
+        "group": "The Sidemen",
+        "company_name": "KILIMANJARO YOUR MUM LTD",
+        "company_number": "09807509",
+        "filing_date": "2026-11-04",
+        "period_date": "30 April 2026",
+        "net_assets": 4205519,
+        "prev_net_assets": 4165141
+      },
+      {
+        "slug": "george-clarke",
+        "name": "George Clarke",
+        "group": "Friends from Work",
+        "company_name": "THE USELESS STUDIOS LIMITED",
+        "company_number": "14629939",
+        "filing_date": "2026-11-02",
+        "period_date": "28 February 2025",
+        "net_assets": 64821,
+        "prev_net_assets": 59198
+      }
+    ]
   }
 ]
